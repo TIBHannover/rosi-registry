@@ -1,0 +1,45 @@
+*{
+  font-family: arial;
+}
+
+.container {
+  padding-bottom: 10px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+header {
+  background-color: #4b4b4b;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #af1414;
+}
+
+.img-responsive-md{
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin: 5px;
+}
+
+/* form */
+
+input::placeholder{
+  font-size: 80%;
+}
+
+textarea::placeholder{
+  font-size: 80%;
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+}
+
+label{
+  font-size: 110%;
+}
