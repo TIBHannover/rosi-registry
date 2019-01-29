@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!--
+Display form to edit existing entry or add a new one
+uses alpaca
+-->
 <html>
   <head>
     <title>Registry of Open Scientometric Data Sources</title>
@@ -21,25 +25,20 @@
     <!-- sceleton for the form -->
     <form action="set-data.php" method="post">
         <div class="container">
-
-          <!-- alpace will fill in the form in this div -->
-          <div id="form"></div>
-
-          <a href="index.php">Cancel</a>
-          <input type="submit" value="Save">
-
+            <div id="form"></div> <!-- alpace will fill in the form in this div -->
+            <a href="index.php">Cancel</a>
+            <input type="submit" value="Save">
         </div>
     </form>
 
     <script type="text/javascript">
 
-    var data = "";
-
-      // get source id from url
+      // get sourceId from url
       var url_string = window.location.href;
       var url = new URL(url_string);
       var sourceId = url.searchParams.get("sourceId");
 
+      // display edit form if there is a sourceId
       if(sourceId){
 
         // get data from database via php
@@ -48,97 +47,20 @@
         ajax.send();
         ajax.onload = function() {
 
-          // TODO resolve timing problem
           // alpaca does its magic here
           $('#form').alpaca({
             "data" : JSON.parse(this.responseText)[0],
-            "schema": {
-              "title":"Edit this Data Source",
-              "type":"object",
-              "properties": {
-                  "name": {
-                      "type":"string",
-                      "title":"Name"
-                  },
-                  "link": {
-                      "type":"string",
-                      "title":"Link"
-                  },
-                  "description": {
-                      "type":"string",
-                      "title":"Description"
-                  }
-                }
-              },
-              "options": {
-                "fields": {
-                    "name": {
-                        "size": 20,
-                        "helper": "Please enter the full name of the data source.",
-                        "placeholder": "Enter the name"
-                    },
-                    "link": {
-                        "size": 20,
-                        "helper": "Please enter a link to the data sources homepage.",
-                        "placeholder": "Enter the name"
-                    },
-                    "description" : {
-                        "type": "textarea",
-                        "rows": 5,
-                        "cols": 40,
-                        "helper": "Please enter a description."
-                    }
-                }
-              }
-            });
-
+            "schemaSource": "./schema.json",
+            "optionsSource": "./options.json"
+          });
         }
       }else {
-        // alpaca does its magic here
+        // display an empty form if there is no sourceId
         $('#form').alpaca({
-          "schema": {
-            "title":"Edit this Data Source",
-            "type":"object",
-            "properties": {
-                "name": {
-                    "type":"string",
-                    "title":"Name"
-                },
-                "link": {
-                    "type":"string",
-                    "title":"Link"
-                },
-                "description": {
-                    "type":"string",
-                    "title":"Description"
-                }
-              }
-            },
-            "options": {
-              "fields": {
-                  "name": {
-                      "size": 20,
-                      "helper": "Please enter the full name of the data source.",
-                      "placeholder": "Enter the name"
-                  },
-                  "link": {
-                      "size": 20,
-                      "helper": "Please enter a link to the data sources homepage.",
-                      "placeholder": "Enter the name"
-                  },
-                  "description" : {
-                      "type": "textarea",
-                      "rows": 5,
-                      "cols": 40,
-                      "helper": "Please enter a description."
-                  }
-              }
-            }
+          "schemaSource": "./schema.json",
+          "optionsSource": "./options.json"
           });
       }
-
-
-
 
     </script>
 

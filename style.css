@@ -18,7 +18,7 @@ header {
 }
 
 a {
-  color: #af1414;
+  color: #af1414 !important;
 }
 
 .img-responsive-md{

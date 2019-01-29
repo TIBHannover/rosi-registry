@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--
+Display overview of all existing entries
+
+uses datatables
+-->
 <html>
   <head>
     <title>Registry of Open Scientometric Data Sources</title>
@@ -18,7 +23,7 @@
     <div class="container">
 
       <div class="container">
-        <a href="login.php">Add new data source</a>
+        <a href="form.php">Add new data source</a>
       </div>
 
       <table id="table_id" class="display">

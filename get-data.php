@@ -10,7 +10,7 @@
   if (isset($_POST['sourceId'])){
     $sql = "SELECT * FROM sources WHERE  id = ".$_POST['sourceId'];
   }
-  elseif (isset( $_GET['sourceId'])) {
+  elseif (isset($_GET['sourceId'])) {
     $sql = "SELECT * FROM sources WHERE  id = ".$_GET['sourceId'];
   }
   else{

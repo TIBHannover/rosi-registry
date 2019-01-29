@@ -1,0 +1,24 @@
+{
+ "fields": {
+     "id": {
+         "type": "hidden"
+     },
+     "name": {
+         "size": 20,
+         "helper": "Please enter the full name of the data source.",
+         "placeholder": "Enter the name"
+     },
+     "link": {
+         "type" : "url",
+         "size": 20,
+         "helper": "Please enter a link to the data sources homepage.",
+         "placeholder": "Enter the link"
+     },
+     "description" : {
+         "type": "textarea",
+         "rows": 5,
+         "cols": 40,
+         "helper": "Please enter a description."
+     }
+ }
+}
