@@ -1,10 +1,10 @@
 {
 "type":"object",
 "properties": {
-  "id": {
-      "type":"string",
-      "title":"id"
-  },
+    "id": {
+        "type":"string",
+        "title":"id"
+    },
     "name": {
         "type":"string",
         "title":"Name"
@@ -12,6 +12,10 @@
     "link": {
         "type":"string",
         "title":"Link"
+    },
+    "image_url": {
+        "type":"string",
+        "title":"Link to Logo"
     },
     "description": {
         "type":"string",

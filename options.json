@@ -14,11 +14,18 @@
          "helper": "Please enter a link to the data sources homepage.",
          "placeholder": "Enter the link"
      },
+     "image_url": {
+         "type" : "url",
+         "size": 20,
+         "helper": "Please enter a link to the data sources logo.",
+         "placeholder": "Enter the link"
+     },
      "description" : {
          "type": "textarea",
          "rows": 5,
          "cols": 40,
-         "helper": "Please enter a description."
+         "helper": "Please enter a description.",
+         "placeholder": "Enter a description"
      }
  }
 }

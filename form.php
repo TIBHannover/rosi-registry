@@ -8,11 +8,11 @@ uses alpaca
     <title>Registry of Open Scientometric Data Sources</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
-  <link type="text/css" href="//code.cloudcms.com/alpaca/1.5.24/bootstrap/alpaca.min.css" rel="stylesheet" />
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
-  <script type="text/javascript" src="//code.cloudcms.com/alpaca/1.5.24/bootstrap/alpaca.min.js"></script>
+    <link type="text/css" href="//code.cloudcms.com/alpaca/1.5.24/bootstrap/alpaca.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+    <script type="text/javascript" src="//code.cloudcms.com/alpaca/1.5.24/bootstrap/alpaca.min.js"></script>
 </head>
 
   <body>
@@ -26,7 +26,7 @@ uses alpaca
     <form action="set-data.php" method="post">
         <div class="container">
             <div id="form"></div> <!-- alpace will fill in the form in this div -->
-            <a href="index.php">Cancel</a>
+            <a href="javascript:history.back()">Cancel</a>
             <input type="submit" value="Save">
         </div>
     </form>
@@ -47,15 +47,16 @@ uses alpaca
         ajax.send();
         ajax.onload = function() {
 
-          // alpaca does its magic here
+          // display a form with data using alpaca
           $('#form').alpaca({
             "data" : JSON.parse(this.responseText)[0],
             "schemaSource": "./schema.json",
             "optionsSource": "./options.json"
           });
         }
-      }else {
-        // display an empty form if there is no sourceId
+      }
+      else {
+        // display an empty form using alpaca
         $('#form').alpaca({
           "schemaSource": "./schema.json",
           "optionsSource": "./options.json"

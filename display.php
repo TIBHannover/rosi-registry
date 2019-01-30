@@ -24,6 +24,8 @@ uses alpaca
 
     <div class="container">
 
+      <div id="img"></div>
+
       <!-- alpace will fill in the form in this div -->
       <div id="form"></div>
       <a href="index.php">back to overview</a>
@@ -47,24 +49,35 @@ uses alpaca
         ajax.send();
         ajax.onload = function() {
 
-          // alpaca does its magic here
+          // convert the metadata of the source to JSON
+          var source = JSON.parse(this.responseText)[0];
+
+          // add image of the data source to the DOM
+          $('#img').prepend('<img src="'+source['image_url']+'"/>');
+
+          // create a view only form with alpaca
           $('#form').alpaca({
-            "data" : JSON.parse(this.responseText)[0],
+            "data" : source,
             "schemaSource": "./schema.json",
             "options": {
               "fields": {
+                "id" : {
+                    "type": "hidden",
+                },
                 "link" : {
                     "type": "url",
-
                 },
-                  "description" : {
-                      "type": "textarea",
-                      "rows": 5,
-                      "cols": 40
-                  }
+                "image_url" : {
+                    "type": "hidden",
+                },
+                "description" : {
+                    "type": "textarea",
+                    "rows": 5,
+                    "cols": 40
+                }
               }
             },
-            "view" : "bootstrap-display"
+            "view" : "web-display"
             });
         }
 

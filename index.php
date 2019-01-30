@@ -7,9 +7,9 @@ uses datatables
 <html>
   <head>
     <title>Registry of Open Scientometric Data Sources</title>
-      <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-      <script type="text/javascript" src="datatables.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="datatables.min.css"/>
+      <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="lib/datatables.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="lib/datatables.min.css"/>
       <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 

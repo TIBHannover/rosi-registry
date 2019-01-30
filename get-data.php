@@ -7,10 +7,10 @@
   $con = mysqli_connect($servername, $username, $password, $database);
 
   // create query depending on parameters
-  if (isset($_POST['sourceId'])){
+  if (isset($_POST['sourceId']) && is_numeric($_POST['sourceId'])){
     $sql = "SELECT * FROM sources WHERE  id = ".$_POST['sourceId'];
   }
-  elseif (isset($_GET['sourceId'])) {
+  elseif (isset($_GET['sourceId']) && is_numeric($_GET['sourceId'])) {
     $sql = "SELECT * FROM sources WHERE  id = ".$_GET['sourceId'];
   }
   else{
