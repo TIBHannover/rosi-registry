@@ -7,24 +7,41 @@ uses datatables
 <html>
   <head>
     <title>Registry of Open Scientometric Data Sources</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+      <!-- jquery 3.3.1 -->
       <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+
+      <!-- bootstrap v4.2.1 -->
+      <link type="text/css" rel="stylesheet" href="lib/bootstrap-4.2.1.min.css" />
+      <script type="text/javascript" src="lib/bootstrap-4.2.1.min.js"></script>
+
+      <!-- datatables -->
       <script type="text/javascript" src="lib/datatables.min.js"></script>
       <link rel="stylesheet" type="text/css" href="lib/datatables.min.css"/>
-      <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
+    <!-- header -->
     <header>
-        <div class="container">
-          <h1>Registry of Open Scientometric Data Sources</h1>
+        <div class="header">
+          <a href="index.php">
+            <h1>Registry of Open Scientometric Data Sources</h1>
+          </a>
         </div>
+        <a href="https://tib.eu/rosi-project"><img id="rosi-logo" src="rosi-logo.png" width="100px"></a>
+        <a href="https://tib.eu"><img id="tib-logo" src="tib-logo.png" width="100px"></a>
     </header>
 
     <div class="container">
 
-      <div class="container">
-        <a href="form.php">Add new data source</a>
+      <div class="alert alert-warning">
+        This site is under construction.
       </div>
+
+      <p>
+        <a href="form.php">Add new data source</a>
+      </p>
 
       <table id="table_id" class="display">
         <thead>
@@ -87,7 +104,5 @@ uses datatables
           };
       </script>
     </div>
-    <img class="img-responsive-md" src="rosi-logo.png" width="400px">
-    <img class="img-responsive-md" src="https://www.tib.eu/typo3conf/ext/tib_tmpl_bootstrap/Resources/Public/images/TIB_Logo_en.png">
   </body>
 </html>

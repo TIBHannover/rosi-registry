@@ -1,31 +1,43 @@
-*{
-  font-family: arial;
-}
-
 .container {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   display: inline-block;
   position: relative;
   width: 100%;
 }
 
-header {
+#rosi-logo {
+  position: absolute;
+  top: +20px;
+  right: +180px;
+}
+
+#tib-logo {
+  position: absolute;
+  top: +30px;
+  right: +40px;
+}
+
+.header {
+  display: inline-block;
+  position: relative;
+  width: 100%;
   background-color: #4b4b4b;
-  color: white;
+  text-decoration: none;
   padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
-a {
-  color: #af1414 !important;
+.header a {
+  color: white;
+}
+.header a:hover {
+  color: white;
 }
 
-.img-responsive-md{
-  display:block;
-  max-width:100%;
-  height:auto;
-  margin: 5px;
+.container a{
+  color: #af1414 !important;
 }
 
 /* form */
