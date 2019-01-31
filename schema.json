@@ -20,6 +20,11 @@
     "description": {
         "type":"string",
         "title":"Description"
+    },
+    "entity": {
+        "type":"string",
+        "title":"Entity",
+        "enum" : ["Person", "Project", "Work", "Organisation", "Event"]
     }
   }
 }

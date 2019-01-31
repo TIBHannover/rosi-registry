@@ -26,6 +26,10 @@
          "cols": 40,
          "helper": "Please enter a description.",
          "placeholder": "Enter a description"
+     },
+     "entity": {
+         "type": "select",
+         "helper": "What kind of entity can be described by this data source?"
      }
  }
 }

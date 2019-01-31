@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jan 23, 2019 at 03:51 PM
--- Server version: 5.7.24-0ubuntu0.18.04.1
+-- Generation Time: Jan 31, 2019 at 05:20 PM
+-- Server version: 5.7.25-0ubuntu0.18.04.2
 -- PHP Version: 7.2.10-0ubuntu0.18.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -33,7 +33,8 @@ CREATE TABLE `sources` (
   `description` text,
   `data_ingest` varchar(100) DEFAULT NULL,
   `licence` varchar(300) DEFAULT NULL,
-  `image_url` varchar(300) DEFAULT NULL
+  `image_url` varchar(300) DEFAULT NULL,
+  `entity` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

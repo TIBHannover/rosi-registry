@@ -10,18 +10,19 @@ $name = mysqli_real_escape_string($con, $_POST['name']);
 $link = mysqli_real_escape_string($con, $_POST['link']);
 $description = mysqli_real_escape_string($con, $_POST['description']);
 $image_url = mysqli_real_escape_string($con, $_POST['image_url']);
+$entity = mysqli_real_escape_string($con, $_POST['entity']);
 
 // check if there is an id and ...
 if(isset($_POST['id']) && $_POST['id'] != null){
 
   // ... update the existing entry
-  $sql = "UPDATE sources SET name = '".$name."', link = '".$link."', description = '".$description."', image_url = '".$image_url."'
+  $sql = "UPDATE sources SET name = '".$name."', link = '".$link."', description = '".$description."', image_url = '".$image_url."', entity = '".$entity."'
    WHERE id = ".$id;
 
 }else {
 
   // ... or create a new one
-  $sql = "INSERT INTO sources (name, link, description, image_url) VALUES ('".$name."', '".$link."', '".$description."', '".$image_url."')";
+  $sql = "INSERT INTO sources (name, link, description, image_url, entity) VALUES ('".$name."', '".$link."', '".$description."', '".$image_url."', '".$entity."')";
 }
 
 // execute the query and ...

@@ -50,6 +50,7 @@ uses datatables
                 <th>Name</th>
                 <th>Link</th>
                 <th>Description</th>
+                <th>Entity</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -66,7 +67,8 @@ uses datatables
                  { data: 'id' },
                  { data: 'name' },
                  { data: 'link' },
-                 { data: 'description' }
+                 { data: 'description' },
+                 { data: 'entity' }
                ],
                columnDefs: [
                  {
@@ -99,7 +101,7 @@ uses datatables
                         return data;
                     }
                 }
-          ]
+              ]
              });
           };
       </script>
