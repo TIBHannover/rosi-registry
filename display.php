@@ -1,99 +1,29 @@
-<!DOCTYPE html>
 <!--
+display.php
 Display existing entry
 uses alpaca http://alpacajs.org
 -->
-<html>
-  <head>
-    <title>Registry of Open Scientometric Data Sources</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
 
-    <!-- jquery 1.11.1 -->
-    <script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
+<?php
+  require_once("header_alpaca.php");
+?>
 
-    <!-- bootstrap v3.3.2 -->
-    <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
-    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<div class="container">
 
-    <!-- handlebars -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+  <div id="img"></div>
 
-    <!-- alpaca 1.5.24 -->
-    <link type="text/css" href="lib/alpaca.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="lib/alpaca.min.js"></script>
-</head>
+  <!-- alpace will fill in the form in this div -->
+  <div id="form"></div>
+  <a href="index.php">back to overview</a>
 
-  <body>
-    <!-- header -->
-    <header>
-      <div class="header">
-        <a href="index.php">
-          <h1>Registry of Open Scientometric Data Sources</h1>
-        </a>
-      </div>
-      <a href="https://tib.eu/rosi-project"><img id="rosi-logo" src="rosi-logo.png" width="100px"></a>
-      <a href="https://tib.eu"><img id="tib-logo" src="tib-logo.png" width="100px"></a>
-    </header>
+  <?php
+    echo '<a href="form.php?sourceId='.$_GET['sourceId'].'">edit</a>';
+  ?>
 
-    <div class="container">
+</div>
 
-      <div id="img"></div>
+<script type="text/javascript" src="js/display.js"></script>
 
-      <!-- alpace will fill in the form in this div -->
-      <div id="form"></div>
-      <a href="index.php">back to overview</a>
-
-      <?php
-        echo '<a href="form.php?sourceId='.$_GET['sourceId'].'">edit</a>';
-      ?>
-
-    </div>
-
-    <script type="text/javascript">
-
-      // get source id from url
-      var url_string = window.location.href;
-      var url = new URL(url_string);
-      var sourceId = url.searchParams.get("sourceId");
-
-        // get data from database via php
-        var ajax = new XMLHttpRequest(); //New request object
-        ajax.open("post", "get-data.php?sourceId="+sourceId, true);
-        ajax.send();
-        ajax.onload = function() {
-
-          // convert the metadata of the source to JSON
-          var source = JSON.parse(this.responseText)[0];
-
-          // add image of the data source to the DOM
-          $('#img').prepend('<img src="'+source['image_url']+'" width="200px"/>');
-
-          // create a view only form with alpaca
-          $('#form').alpaca({
-            "data" : source,
-            "schemaSource": "./schema.json",
-            "options": {
-              "fields": {
-                "id" : {
-                    "type": "hidden",
-                },
-                "link" : {
-                    "type": "url",
-                },
-                "image_url" : {
-                    "type": "hidden",
-                },
-                "description" : {
-                    "type": "textarea",
-                    "rows": 5,
-                    "cols": 40
-                }
-              }
-            },
-            "view" : "web-display"
-            });
-        }
-
-    </script>
-  </body>
-</html>
+<?php
+  require_once("footer.php");
+?>
