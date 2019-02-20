@@ -40,6 +40,17 @@
   color: #af1414 !important;
 }
 
+.footer{
+  background-color: grey;
+  padding-left: 10px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+h2{
+  padding-top: 20px;
+}
+
 /* form */
 
 input::placeholder{

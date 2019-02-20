@@ -6,7 +6,6 @@ uses alpaca http://alpacajs.org
 <html>
   <head>
     <title>Registry of Open Scientometric Data Sources</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- jquery 1.11.1 -->
     <script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
@@ -21,6 +20,10 @@ uses alpaca http://alpacajs.org
     <!-- alpaca 1.5.24 -->
     <link type="text/css" href="lib/alpaca.min.css" rel="stylesheet" />
     <script type="text/javascript" src="lib/alpaca.min.js"></script>
+
+    <!-- own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
   <body>

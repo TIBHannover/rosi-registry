@@ -7,7 +7,6 @@ uses datatables https://www.datatables.net/
   <head>
 
     <title>Registry of Open Scientometric Data Sources</title>
-      <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- jquery 3.3.1 -->
     <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
@@ -19,9 +18,13 @@ uses datatables https://www.datatables.net/
     <!-- datatables -->
     <script type="text/javascript" src="lib/datatables.min.js"></script>
     <link rel="stylesheet" type="text/css" href="lib/datatables.min.css"/>
-    </head>
-      <body>
 
-        <?php
-          require_once("header.php");
-        ?>
+    <!-- own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+
+    <?php
+      require_once("header.php");
+    ?>
