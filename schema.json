@@ -25,6 +25,10 @@
         "type":"string",
         "title":"Entity",
         "enum" : ["Person", "Project", "Work", "Organisation", "Event"]
+    },
+    "licence":{
+      "type":"string",
+      "title":"Licence"
     }
   }
 }

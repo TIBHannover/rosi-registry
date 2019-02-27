@@ -30,6 +30,10 @@
      "entity": {
          "type": "select",
          "helper": "What kind of entity can be described by this data source?"
+     },
+     "licence": {
+         "helper": "Please add licence info with link.",
+         "placeholder": "Enter the licence of the data"
      }
  }
 }

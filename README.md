@@ -12,5 +12,6 @@ display of metadata of open scientrometric data sources
 ## Built With
 
 * [jQuery](https://jquery.com/) - basic javascript library
-* [alpacajs](http://alpacajs.org) - form generator
-* [datatables](https://www.datatables.net/) - table generator
+* [alpacajs](http://alpacajs.org) - js form generator library
+* [datatables](https://www.datatables.net/) - js table generator library
+* [MeekroDB](https://meekro.com) - php mysql library

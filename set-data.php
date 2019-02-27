@@ -1,42 +1,34 @@
 <?php
 
-// preparations
+// php mysql library MeekroDB https://meekro.com
+require_once 'lib/meekrodb.2.3.class.php';
+
+// get credentials from config
 include 'config.php';
-$con = mysqli_connect($servername, $username, $password, $database);
+DB::$host = $servername ;
+DB::$user = $username;
+DB::$password = $password ;
+DB::$dbName = $database;
 
 // get variables via POST
-$id = mysqli_real_escape_string($con, $_POST['id']);
-$name = mysqli_real_escape_string($con, $_POST['name']);
-$link = mysqli_real_escape_string($con, $_POST['link']);
-$description = mysqli_real_escape_string($con, $_POST['description']);
-$image_url = mysqli_real_escape_string($con, $_POST['image_url']);
-$entity = mysqli_real_escape_string($con, $_POST['entity']);
+$metadata = array(
+  'name' => $_POST['name'],
+  'link' => $_POST['link'],
+  'description' => $_POST['description'],
+  'image_url' => $_POST['image_url'],
+  'entity' => $_POST['entity'],
+  'licence' => $_POST['licence'],
+);
 
-// check if there is an id and ...
+// check of there is an id
 if(isset($_POST['id']) && $_POST['id'] != null){
-
-  // ... update the existing entry
-  $sql = "UPDATE sources SET name = '".$name."', link = '".$link."', description = '".$description."', image_url = '".$image_url."', entity = '".$entity."'
-   WHERE id = ".$id;
-
-}else {
-
-  // ... or create a new one
-  $sql = "INSERT INTO sources (name, link, description, image_url, entity) VALUES ('".$name."', '".$link."', '".$description."', '".$image_url."', '".$entity."')";
+  $metadata['id'] = $_POST['id'];
 }
 
-// execute the query and ...
-if (mysqli_query($con, $sql)){
+// insert or update data into the database
+DB::insertUpdate('sources', $metadata);
 
-  // ... go back to homepage
-  header("Location: index.php");
-
-}else {
-  // ... or echo error
-  echo mysqli_error($con);
-}
-
-// closing
-mysqli_close($con);
+// ... go back to homepage
+header("Location: index.php");
 
 ?>
