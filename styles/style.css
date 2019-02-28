@@ -1,8 +1,15 @@
-.container {
-  padding-bottom: 20px;
+/* header */
+
+.header {
   display: inline-block;
   position: relative;
   width: 100%;
+  background-color: #4b4b4b;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #rosi-logo {
@@ -17,38 +24,32 @@
   right: +40px;
 }
 
-.header {
+/* links */
+
+.header a, .header a:hover {
+  color: white;
+}
+
+.container a, .footer a{
+  color: #af1414;
+}
+
+/* container */
+
+.container {
+  padding-bottom: 20px;
   display: inline-block;
   position: relative;
-  width: 100%;
-  background-color: #4b4b4b;
-  text-decoration: none;
-  padding-left: 10px;
-  padding-top: 25px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  width: 80%;
 }
 
-.header a {
-  color: white;
-}
-.header a:hover {
-  color: white;
-}
-
-.container a{
-  color: #af1414 !important;
-}
+/* footer */
 
 .footer{
   background-color: grey;
   padding-left: 10px;
   padding-top: 25px;
   padding-bottom: 20px;
-}
-
-h2{
-  padding-top: 20px;
 }
 
 /* form */

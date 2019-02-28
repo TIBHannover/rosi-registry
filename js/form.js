@@ -3,9 +3,10 @@
 * uses alpaca http://alpacajs.org
 */
 
-// get sourceId from url
-var url_string = window.location.href;
-var url = new URL(url_string);
+// variables
+var schema = "./schemas/schema.json";
+var options =  "./schemas/options.json";
+var url = new URL(window.location.href);
 var sourceId = url.searchParams.get("sourceId");
 
 // display edit form if there is a sourceId
@@ -20,15 +21,16 @@ if(sourceId){
     // display a form with data using alpaca
     $('#form').alpaca({
       "data" : JSON.parse(this.responseText)[0],
-      "schemaSource": "./schemas/schema.json",
-      "optionsSource": "./schemas/options.json"
+      "schemaSource": schema,
+      "optionsSource": options
     });
   }
 }
+
 else {
   // display an empty form using alpaca
   $('#form').alpaca({
-    "schemaSource": "./schemas/schema.json",
-    "optionsSource": "./schemas/options.json"
+    "schemaSource": schema,
+    "optionsSource": options
     });
 }

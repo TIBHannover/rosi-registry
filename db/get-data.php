@@ -1,9 +1,9 @@
 <?php
 /**
 * @file db/get-data.php
+* uses php mysql library MeekroDB https://meekro.com
 */
 
-// php mysql library MeekroDB https://meekro.com
 require_once '../lib/meekrodb.2.3.class.php';
 
 // get credentials from config.ini.php

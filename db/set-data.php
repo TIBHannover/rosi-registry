@@ -1,9 +1,9 @@
 <?php
 /**
 * @file db/set-data.php
+* uses php mysql library MeekroDB https://meekro.com
 */
 
-// php mysql library MeekroDB https://meekro.com
 require_once '../lib/meekrodb.2.3.class.php';
 
 // get credentials from config.ini.php
@@ -13,19 +13,18 @@ DB::$user = $ini['username'];
 DB::$password = $ini['password'];
 DB::$dbName = $ini['database'];
 
-// get variables via POST
-$metadata = array(
-  'name' => $_POST['name'],
-  'link' => $_POST['link'],
-  'description' => $_POST['description'],
-  'image_url' => $_POST['image_url'],
-  'entity' => $_POST['entity'],
-  'licence' => $_POST['licence'],
-);
+// array with parameters for db query
+$metadata = [];
 
-// check of there is an id
-if(isset($_POST['id']) && $_POST['id'] != null){
-  $metadata['id'] = $_POST['id'];
+// read data structure from schema.json
+$data_structure = json_decode(file_get_contents("../schemas/schema.json"), true);
+
+// get variables via POST
+foreach ($data_structure['properties'] as $element) {
+
+  if($_POST[$element['name']] != null){
+    $metadata[$element['name']] = $_POST[$element['name']];
+  }
 }
 
 // insert or update data into the database

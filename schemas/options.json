@@ -4,36 +4,35 @@
          "type": "hidden"
      },
      "name": {
-         "size": 20,
-         "helper": "Please enter the full name of the data source.",
-         "placeholder": "Enter the name"
+         "placeholder": "Enter the full name of the data source"
      },
      "link": {
          "type" : "url",
-         "size": 20,
-         "helper": "Please enter a link to the data sources homepage.",
-         "placeholder": "Enter the link"
+         "placeholder": "Enter the link to the data sources homepage"
      },
      "image_url": {
          "type" : "url",
-         "size": 20,
-         "helper": "Please enter a link to the data sources logo.",
-         "placeholder": "Enter the link"
+         "placeholder": "Enter the link to the data sources logo"
      },
      "description" : {
          "type": "textarea",
          "rows": 5,
          "cols": 40,
-         "helper": "Please enter a description.",
          "placeholder": "Enter a description"
      },
      "entity": {
          "type": "select",
-         "helper": "What kind of entity can be described by this data source?"
+         "helper": "An entity can be described by a data source"
      },
      "licence": {
-         "helper": "Please add licence info with link.",
          "placeholder": "Enter the licence of the data"
+     },
+     "interface": {
+         "type" : "url",
+         "placeholder": "Enter the link to the interface"
+     },
+     "interface_type": {
+         "placeholder": "Enter the type of the interface - Typical interface types are API, REST API, SPARQL Endpoint"
      }
  }
 }
