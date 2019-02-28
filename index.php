@@ -1,11 +1,10 @@
-<!--
-index.php
-Display overview of all existing entries
-
-uses datatables https://www.datatables.net/
--->
-
 <?php
+/**
+* @file index.php
+* Display overview of all existing entries
+*
+* uses datatables https://www.datatables.net/
+*/
   require_once("header_datatables.php");
 ?>
 
@@ -35,7 +34,7 @@ uses datatables https://www.datatables.net/
     <tbody></tbody>
   </table>
 
-<script type="text/javascript" src="js/datatables.js"></script>
+<script type="text/javascript" src="js/datatable.js"></script>
 
 </div>
 <?php

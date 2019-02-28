@@ -20,7 +20,7 @@ uses datatables https://www.datatables.net/
     <link rel="stylesheet" type="text/css" href="lib/datatables.min.css"/>
 
     <!-- own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 
   </head>
   <body>

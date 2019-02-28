@@ -1,6 +1,12 @@
 # ROSI Sources
 
-display of metadata of open scientrometric data sources
+display and manage metadata of open scientometric data sources
+
+## Features
+
+* overview of all data sources in a interactive, searchable table
+* detailed view of a data source
+* form view to add new or edit an existing data source
 
 ## Installation
 

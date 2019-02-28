@@ -1,14 +1,17 @@
 <?php
+/**
+* @file db/get-data.php
+*/
 
 // php mysql library MeekroDB https://meekro.com
-require_once 'lib/meekrodb.2.3.class.php';
+require_once '../lib/meekrodb.2.3.class.php';
 
-// get credentials from config
-include 'config.php';
-DB::$host = $servername ;
-DB::$user = $username;
-DB::$password = $password ;
-DB::$dbName = $database;
+// get credentials from config.ini.php
+$ini = parse_ini_file('../config.ini.php');
+DB::$host = $ini['servername'];
+DB::$user = $ini['username'];
+DB::$password = $ini['password'];
+DB::$dbName = $ini['database'];
 
 // create query depending on parameters
 if (isset($_POST['sourceId']) && is_numeric($_POST['sourceId'])){

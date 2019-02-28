@@ -1,5 +1,10 @@
+/**
+* @file js/datatable.js
+* uses datatables https://www.datatables.net/
+*/
+
 var ajax = new XMLHttpRequest(); //New request object
-ajax.open("get", "get-data.php", true);
+ajax.open("get", "db/get-data.php", true);
 ajax.send();
 ajax.onload = function() {
     $('#table_id').DataTable({

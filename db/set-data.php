@@ -1,14 +1,17 @@
 <?php
+/**
+* @file db/set-data.php
+*/
 
 // php mysql library MeekroDB https://meekro.com
-require_once 'lib/meekrodb.2.3.class.php';
+require_once '../lib/meekrodb.2.3.class.php';
 
-// get credentials from config
-include 'config.php';
-DB::$host = $servername ;
-DB::$user = $username;
-DB::$password = $password ;
-DB::$dbName = $database;
+// get credentials from config.ini.php
+$ini = parse_ini_file('../config.ini.php');
+DB::$host = $ini['servername'];
+DB::$user = $ini['username'];
+DB::$password = $ini['password'];
+DB::$dbName = $ini['database'];
 
 // get variables via POST
 $metadata = array(
@@ -29,6 +32,6 @@ if(isset($_POST['id']) && $_POST['id'] != null){
 DB::insertUpdate('sources', $metadata);
 
 // ... go back to homepage
-header("Location: index.php");
+header("Location: ../index.php");
 
 ?>

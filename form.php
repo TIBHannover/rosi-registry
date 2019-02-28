@@ -1,14 +1,14 @@
-<!--
-form.php
-Display form to edit existing entry or add a new one
-uses alpaca http://alpacajs.org
--->
 <?php
+/**
+* @file form.php
+* Display form to edit existing entry or add a new one
+* uses alpaca http://alpacajs.org
+*/
   require_once("header_alpaca.php");
 ?>
 
 <!-- sceleton for the form -->
-<form action="set-data.php" method="post">
+<form action="db/set-data.php" method="post">
     <div class="container">
         <div id="form"></div> <!-- alpace will fill in the form in this div -->
         <a href="javascript:history.back()">Cancel</a>

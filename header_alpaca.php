@@ -22,7 +22,7 @@ uses alpaca http://alpacajs.org
     <script type="text/javascript" src="lib/alpaca.min.js"></script>
 
     <!-- own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 
 </head>
 

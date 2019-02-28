@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jan 31, 2019 at 05:20 PM
+-- Generation Time: Feb 28, 2019 at 02:51 PM
 -- Server version: 5.7.25-0ubuntu0.18.04.2
--- PHP Version: 7.2.10-0ubuntu0.18.04.1
+-- PHP Version: 7.2.15-0ubuntu0.18.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -34,7 +34,9 @@ CREATE TABLE `sources` (
   `data_ingest` varchar(100) DEFAULT NULL,
   `licence` varchar(300) DEFAULT NULL,
   `image_url` varchar(300) DEFAULT NULL,
-  `entity` varchar(50) NOT NULL
+  `entity` varchar(50) DEFAULT NULL,
+  `interface` varchar(500) DEFAULT NULL,
+  `interface_type` text
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
