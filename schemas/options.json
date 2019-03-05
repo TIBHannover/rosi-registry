@@ -18,7 +18,7 @@
          "type": "textarea",
          "rows": 5,
          "cols": 40,
-         "placeholder": "Enter a description"
+         "placeholder": "Describe the data source"
      },
      "entity": {
          "type": "select",
@@ -33,6 +33,15 @@
      },
      "interface_type": {
          "placeholder": "Enter the type of the interface - Typical interface types are API, REST API, SPARQL Endpoint"
+     },
+     "documentation": {
+         "placeholder": "Enter the link to the documentation"
+     },
+     "comment": {
+         "type": "textarea",
+         "rows": 5,
+         "cols": 40,
+         "placeholder": "Feel free to enter any type of comment"
      }
  }
 }

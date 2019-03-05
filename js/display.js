@@ -23,8 +23,7 @@ ajax.onload = function() {
 
   // create a view only form with alpaca
   $('#form').alpaca({
-
-    "schemaSource": "./schemas/schema.json",
+    "schemaSource": "./schemas/source.json",
     "optionsSource": "./schemas/options.json",
     "data" : source,
     "view" : "bootstrap-display-horizontal"

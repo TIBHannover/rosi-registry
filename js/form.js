@@ -4,7 +4,7 @@
 */
 
 // variables
-var schema = "./schemas/schema.json";
+var schema = "./schemas/source.json";
 var options =  "./schemas/options.json";
 var url = new URL(window.location.href);
 var sourceId = url.searchParams.get("sourceId");

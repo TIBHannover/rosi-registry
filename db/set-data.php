@@ -16,8 +16,8 @@ DB::$dbName = $ini['database'];
 // array with parameters for db query
 $metadata = [];
 
-// read data structure from schema.json
-$data_structure = json_decode(file_get_contents("../schemas/schema.json"), true);
+// read data structure from source.json
+$data_structure = json_decode(file_get_contents("../schemas/source.json"), true);
 
 // get variables via POST
 foreach ($data_structure['properties'] as $element) {

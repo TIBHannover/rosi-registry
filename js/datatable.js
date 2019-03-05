@@ -8,6 +8,8 @@ ajax.open("get", "db/get-data.php", true);
 ajax.send();
 ajax.onload = function() {
     $('#table_id').DataTable({
+      responsive: true,
+      fixedHeader: true,
       data : JSON.parse(this.responseText),
       columns: [
        { data: 'id' },

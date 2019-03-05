@@ -1,0 +1,80 @@
+{
+"type":"object",
+"properties": {
+    "id": {
+        "name": "id",
+        "type":"string",
+        "title":"id"
+    },
+    "name": {
+        "name":"name",
+        "type":"string",
+        "title":"Name"
+    },
+    "link": {
+        "name":"link",
+        "type":"string",
+        "title":"Link"
+    },
+    "image_url": {
+        "name":"image_url",
+        "type":"string",
+        "title":"Link to Logo"
+    },
+    "description": {
+        "name":"description",
+        "type":"string",
+        "title":"Description"
+    },
+    "category": {
+        "name":"category",
+        "type":"string",
+        "title":"Category",
+        "enum" : ["Repository", "Data aggregator", "Collaborative platform", "Online social network", "Other"]
+    },
+    "academic_discipline": {
+        "name":"academic_discipline",
+        "type":"string",
+        "title":"Academic discipline",
+        "enum" : ["Arts & Humanities", "Science / Technology / Engineering / Mathematics", "Social Sciences", "Other"]
+    },
+    "entity": {
+        "name":"entity",
+        "type":"string",
+        "title":"Entity",
+        "enum" : ["Person", "Project", "Work", "Organisation", "Event", "Other"]
+    },
+    "licence":{
+        "name":"licence",
+        "type":"string",
+        "title":"Licence"
+    },
+    "interface": {
+        "name":"interface",
+        "type":"string",
+        "title":"Interface"
+    },
+    "interface_type": {
+        "name":"interface_type",
+        "type":"string",
+        "title":"Type of Interface",
+        "enum" : ["REST API", "API", "SPARQL Endpoint", "Other"]
+    },
+    "documentation":{
+        "name":"documentation",
+        "type":"string",
+        "title":"Documentation"
+    },
+    "data_format": {
+        "name":"data_format",
+        "type":"string",
+        "title":"Data format",
+        "enum" : ["JSON", "XML", "Other"]
+    },
+    "comment": {
+        "name":"comment",
+        "type":"string",
+        "title":"Comment"
+    }
+  }
+}
