@@ -12,6 +12,7 @@ ajax.onload = function() {
       fixedHeader: true,
       data : JSON.parse(this.responseText),
       columns: [
+       { data: 'id' },
        { data: 'name' },
        { data: 'description' },
        { data: 'link' }
@@ -38,7 +39,7 @@ ajax.onload = function() {
            }
        },
       {
-          targets: 2, // display link as a link
+          targets: 3, // display link as a link
           render: function ( data, type, row, meta ) {
               if(type === 'display'){
                   data = '<a href="' + data + '">' + data + '</a>';
