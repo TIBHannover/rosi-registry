@@ -12,11 +12,9 @@ ajax.onload = function() {
       fixedHeader: true,
       data : JSON.parse(this.responseText),
       columns: [
-       { data: 'id' },
        { data: 'name' },
-       { data: 'link' },
        { data: 'description' },
-       { data: 'entity' }
+       { data: 'link' }
      ],
      columnDefs: [
        {

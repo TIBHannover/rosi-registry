@@ -24,11 +24,9 @@
   <table id="table_id" class="display">
     <thead>
         <tr>
-            <th>#</th>
             <th>Name</th>
-            <th>Link</th>
             <th>Description</th>
-            <th>Entity</th>
+            <th>Link</th>
         </tr>
     </thead>
     <tbody></tbody>
