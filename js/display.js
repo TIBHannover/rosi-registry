@@ -8,24 +8,23 @@ var url_string = window.location.href;
 var url = new URL(url_string);
 var sourceId = url.searchParams.get("sourceId");
 
-// get data from database via php
-var ajax = new XMLHttpRequest(); //New request object
-ajax.open("post", "db/get-data.php?sourceId="+sourceId, true);
-ajax.send();
-ajax.onload = function() {
+// read remote url from config
+$.getJSON('./config.json', function(config){
 
-  // convert metadata to JSON
-  var source = JSON.parse(this.responseText)[0];
+  // get data from remote
+  $.getJSON(config['remote'], function(source){
 
-  // add image_url to the DOM and remove it from the array
-  $('#img').prepend('<img src="'+source['image_url']+'" width="200px"/>');
-  //delete source['image_url'];
+    // add image_url to the DOM
+    $('#img').prepend('<img src="'+source['image_url']+'" width="200px"/>');
 
-  // create a view only form with alpaca
-  $('#form').alpaca({
-    "schemaSource": "./schemas/source.json",
-    "optionsSource": "./schemas/options.json",
-    "data" : source,
-    "view" : "bootstrap-display-horizontal"
-    });
-}
+    // create a view only form with alpaca
+    $('#form').alpaca({
+      "schemaSource": "./schemas/source.json",
+      "optionsSource": "./schemas/options.json",
+      "data" : source[sourceId],
+      "view" : "bootstrap-display-horizontal"
+      });
+
+  });
+
+});
