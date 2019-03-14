@@ -12,21 +12,21 @@ var sourceId = url.searchParams.get("sourceId");
 // display edit form if there is a sourceId
 if(sourceId){
 
-  // get data from database via php
-  var ajax = new XMLHttpRequest(); //New request object
-  ajax.open("post", "db/get-data.php?sourceId="+sourceId, true);
-  ajax.send();
-  ajax.onload = function() {
+  // read remote url from config
+  $.getJSON('./config.json', function(config){
 
-    // display a form with data using alpaca
-    $('#form').alpaca({
-      "data" : JSON.parse(this.responseText)[0],
-      "schemaSource": schema,
-      "optionsSource": options
+    // get data from remote
+    $.getJSON(config['remote'], function(source){
+
+      // display a form with data using alpaca
+      $('#form').alpaca({
+        "data" : source[sourceId],
+        "schemaSource": schema,
+        "optionsSource": options
+      });
     });
-  }
+  });
 }
-
 else {
   // display an empty form using alpaca
   $('#form').alpaca({
