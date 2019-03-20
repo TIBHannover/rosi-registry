@@ -15,27 +15,25 @@ $data_structure = json_decode(file_get_contents("../schemas/source.json"), true)
 // create empty metadata array
 $metadata = [];
 
-// get metadata via POST
+// get data via POST and store in arry
 foreach ($data_structure['properties'] as $element) {
   if(isset($_POST[$element['name']])){
     $metadata[$element['name']] = $_POST[$element['name']];
   }
 }
 
-// edit existing entry
-if(isset($metadata['id'])){
+// commit message
+$commit_message = $metadata['name'];
 
-  // overwrite metadata entry with new data
-  $data[$metadata['id']] = $metadata;
-
-}else {
-
-  // add new id
-  $metadata['id'] = count($data);
-
-  // add new data to data array
+// add new entry
+if($metadata['id'] == null){
+  $metadata['id'] = (string)count($data);
   array_push($data, $metadata);
-
+  $commit_message .= " added";
+}else{
+  // change exising entry
+   $data[$metadata['id']] = $metadata;
+   $commit_message .= " updated";
 }
 
 // write to file
@@ -45,11 +43,10 @@ file_put_contents('../data/data.json', json_encode($data, JSON_PRETTY_PRINT));
 echo shell_exec('git config user.email "'.$config['git_email'].'"');
 echo shell_exec('git config user.name "'.$config['git_user'].'"');
 
-// create git commit
+// git commit and push
 echo shell_exec('git add ../data/data.json');
-echo shell_exec('git commit -m "data updated"'); // .date(Y-m-d H:i:s)
-
-//echo shell_exec('git push origin remote');
+echo shell_exec('git commit -m "'.$commit_message.'"');
+echo shell_exec('git push origin remote');
 
 // go back to homepage
 header("Location: ../index.php");

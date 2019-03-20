@@ -5,13 +5,18 @@
 * uses alpaca http://alpacajs.org
 */
 
-  // check of user is logged in
-  session_start();
-  if(!($_SESSION['login'] === true)){
-    header('Location: login.php');
-  }
+// check of user is logged in
+session_start();
+$param = "";
+if(!($_SESSION['login'] === true)){
 
-  require_once("header_alpaca.php");
+  if(isset($_GET['sourceId'])){
+    $param = "?sourceId=".$_GET['sourceId'];
+  }
+  header('Location: login.php'.$param); //redirect to login page
+}
+
+require_once("header_alpaca.php");
 ?>
 
 <!-- sceleton for the form -->

@@ -1,11 +1,16 @@
 <?php
+/**
+* @file login.php
+* Display form for password login
+* uses alpaca http://alpacajs.org
+*/
+
+// variables
 session_start();
 $errorMsg = '';
-$validUser = $_SESSION['login'] === true;
-
-if($_GET['sourceId']){
-  echo "string";
-}
+$valid = $_SESSION['login'] === true;
+isset($_GET['sourceId']) ? $param = "?sourceId=".$_GET['sourceId'] : $param = "";
+$action = 'login.php'.$param;
 
 // read password from config
 $config = json_decode(file_get_contents("config.json"), true);
@@ -16,24 +21,22 @@ if(isset($_POST['submit'])) {
   else $_SESSION['login'] = true;
 }
 if($valid) {
-   header('Location: form.php'); die();
+   header('Location: form.php'.$param); die();
 }
+
 require_once('header_alpaca.php');
-
-// form with alpaca
 ?>
-<div class='container'>
 
+<div class='container'>
   <!-- sceleton for the form -->
-  <form name='input' action='login.php' method='post'>
+  <form name='input' action=<?= $action ?> method='post'>
       <div class='container'>
           <div id='form'></div> <!-- alpaca will fill in the form in this div -->
           <div class='error'><?= $errorMsg ?></div>
           <a href='javascript:history.back()'>Cancel</a>
-          <input type='submit' value='Save' name='submit'>
+          <input type='submit' value='Submit' name='submit'>
       </div>
   </form>
-
 </div>
 
 <script type="text/javascript">
@@ -47,7 +50,6 @@ require_once('header_alpaca.php');
       }
   });
 </script>
-
 
 <?php
   require_once("footer.php");
