@@ -4,7 +4,19 @@
 * Display form to edit existing entry or add a new one
 * uses alpaca http://alpacajs.org
 */
-  require_once("header_alpaca.php");
+
+// check of user is logged in
+session_start();
+$param = "";
+if(!($_SESSION['login'] === true)){
+
+  if(isset($_GET['sourceId'])){
+    $param = "?sourceId=".$_GET['sourceId'];
+  }
+  header('Location: login.php'.$param); //redirect to login page
+}
+
+require_once("header_alpaca.php");
 ?>
 
 <!-- sceleton for the form -->
