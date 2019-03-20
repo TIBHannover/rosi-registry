@@ -4,6 +4,13 @@
 * Display form to edit existing entry or add a new one
 * uses alpaca http://alpacajs.org
 */
+
+  // check of user is logged in
+  session_start();
+  if(!($_SESSION['login'] === true)){
+    header('Location: login.php');
+  }
+
   require_once("header_alpaca.php");
 ?>
 

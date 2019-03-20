@@ -3,9 +3,11 @@
 * @file db/set-data.php
 */
 
-// read existing dataset TODO from remote?
-$data = file_get_contents('../data/data.json');
-$data = json_decode($data);
+// read config
+$config = json_decode(file_get_contents('../config.json'), true);
+
+// read existing dataset from local
+$data = json_decode(file_get_contents('../data/data.json'), true);
 
 // read data structure from source.json
 $data_structure = json_decode(file_get_contents("../schemas/source.json"), true);
@@ -40,17 +42,16 @@ if(isset($metadata['id'])){
 file_put_contents('../data/data.json', json_encode($data, JSON_PRETTY_PRINT));
 
 // set git user
-echo shell_exec('git config user.email "rosi.project@tib.eu"');
-echo shell_exec('git config user.name "ROSI"');
+echo shell_exec('git config user.email "'.$config['git_email'].'"');
+echo shell_exec('git config user.name "'.$config['git_user'].'"');
 
 // create git commit
-// echo shell_exec('git checkout -b data'); // TODO branch
 echo shell_exec('git add ../data/data.json');
 echo shell_exec('git commit -m "data updated"'); // .date(Y-m-d H:i:s)
 
-// echo shell_exec('git push origin data'); // TODO git push
+//echo shell_exec('git push origin remote');
 
-// ... go back to homepage
+// go back to homepage
 header("Location: ../index.php");
 
 ?>
