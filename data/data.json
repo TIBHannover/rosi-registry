@@ -131,5 +131,21 @@
         "documentation": "https:\/\/de.wikipedia.org\/wiki\/Wikipedia:Technik\/Datenbank\/API",
         "data_format": "JSON",
         "comment": "data format: JSON and XML"
+    },
+    {
+        "id": "8",
+        "name": "Publons",
+        "link": "https:\/\/publons.com\/api\/v2\/",
+        "image_url": "https:\/\/publons.com\/static\/images\/logos\/full\/blue_white.png",
+        "description": "Publons is a company that provides a platform for scholars that want to share their merits in peer review. It also provides a widget that can be implemented, for example, in research information systems.",
+        "category": "Other",
+        "academic_discipline": "",
+        "entity": "Person",
+        "licence": "",
+        "interface": "",
+        "interface_type": "",
+        "documentation": "",
+        "data_format": "JSON",
+        "comment": "XML, CSV"
     }
 ]
