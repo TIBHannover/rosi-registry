@@ -4,7 +4,7 @@
 * Display existing entry
 * uses alpaca http://alpacajs.org
 */
-  require_once("header_alpaca.php");
+  require_once("includes/header_alpaca.php");
 ?>
 
 <div class="container">
@@ -24,5 +24,5 @@
 <script type="text/javascript" src="js/display.js"></script>
 
 <?php
-  require_once("footer.php");
+  require_once("includes/footer.php");
 ?>

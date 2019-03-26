@@ -5,7 +5,7 @@
 *
 * uses datatables https://www.datatables.net/
 */
-  require_once("header_datatables.php");
+  require_once("includes/header_datatables.php");
 ?>
 
 <div class="container">
@@ -37,5 +37,5 @@
 
 </div>
 <?php
-  require_once("footer.php");
+  require_once("includes/footer.php");
 ?>

@@ -16,7 +16,7 @@ if(!($_SESSION['login'] === true)){
   header('Location: login.php'.$param); //redirect to login page
 }
 
-require_once("header_alpaca.php");
+require_once("includes/header_alpaca.php");
 ?>
 
 <!-- sceleton for the form -->
@@ -31,5 +31,5 @@ require_once("header_alpaca.php");
 <script type="text/javascript" src="js/form.js"></script>
 
 <?php
-  require_once("footer.php");
+  require_once("includes/footer.php");
 ?>

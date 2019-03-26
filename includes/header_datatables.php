@@ -1,5 +1,5 @@
 <!--
-header_datatables.php
+includes/header_datatables.php
 uses datatables https://www.datatables.net/
 -->
 <!DOCTYPE html>
@@ -26,5 +26,5 @@ uses datatables https://www.datatables.net/
   <body>
 
     <?php
-      require_once("header.php");
+      require_once("includes/header.php");
     ?>

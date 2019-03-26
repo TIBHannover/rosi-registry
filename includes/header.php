@@ -1,5 +1,5 @@
 <!--
-header.php
+includes/header.php
 -->
 
 <header>

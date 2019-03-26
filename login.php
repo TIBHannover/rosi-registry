@@ -24,7 +24,7 @@ if($valid) {
    header('Location: form.php'.$param); die();
 }
 
-require_once('header_alpaca.php');
+require_once('includes/header_alpaca.php');
 ?>
 
 <div class='container'>
@@ -52,5 +52,5 @@ require_once('header_alpaca.php');
 </script>
 
 <?php
-  require_once("footer.php");
+  require_once("includes/footer.php");
 ?>

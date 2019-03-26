@@ -5,7 +5,7 @@ Display overview of all existing entries
 uses datatables https://www.datatables.net/
 -->
 <?php
-  require_once("header_datatables.php");
+  require_once("includes/header_datatables.php");
 ?>
 <div class="container">
   <h2>About this Registry</h2>
@@ -35,5 +35,5 @@ uses datatables https://www.datatables.net/
   If you miss data sources, or would like to give feedback on the descriptions of the existing ones, please contact us.
 </div>
 <?php
-  require_once("footer.php");
+  require_once("includes/footer.php");
 ?>

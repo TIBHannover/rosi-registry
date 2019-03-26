@@ -14,8 +14,10 @@ $.getJSON('./config.json', function(config){
   // get data from remote
   $.getJSON(config['remote'], function(source){
 
+  //  alert(source[sourceId]['image_url']);
+
     // add image_url to the DOM
-    $('#img').prepend('<img src="'+source['image_url']+'" width="200px"/>');
+    $('#img').prepend('<img src="'+source[sourceId]['image_url']+'" width="200px"/>');
 
     // create a view only form with alpaca
     $('#form').alpaca({

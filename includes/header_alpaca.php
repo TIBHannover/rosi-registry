@@ -1,5 +1,5 @@
 <!--
-header_alpaca.php
+includes/header_alpaca.php
 uses alpaca http://alpacajs.org
 -->
 <!DOCTYPE html>
@@ -29,5 +29,5 @@ uses alpaca http://alpacajs.org
   <body>
 
     <?php
-      require_once("header.php");
+      require_once("includes/header.php");
     ?>
