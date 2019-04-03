@@ -54,6 +54,10 @@
 
 /* form */
 
+.alpaca-control {
+  padding-top: 7px;
+}
+
 input::placeholder{
   font-size: 80%;
 }
