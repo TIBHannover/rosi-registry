@@ -7,16 +7,15 @@
 */
   require_once("includes/header_datatables.php");
 ?>
-
 <div class="container">
-
-  <div class="alert alert-warning">
-    This site is under construction.
-  </div>
   <p>
-    The diversity of scientometric data sources is large – and new ones are constantly being published, existing ones are changing, and others are being switched off. It is almost impossible to maintain a complete overview. In this Registry of Open Scientometric Data Sources we collect and describe several data sources for open, i.e. freely licensed scientometric information.
-  <a href="about.php">Read more</a>
+    This registry describes data sources for scientometric information.
+    It is edited by the ROSI project. <a href="about.php">Read more</a>
   </p>
+  <div class="alert alert-warning">
+    This site is under construction. You are invited to help filling the registry!
+    Contact us to get write access: rosi.project(at)tib.eu.
+  </div>
   <p>
     <a href="form.php">Add new data source</a>
   </p>
