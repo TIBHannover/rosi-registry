@@ -145,5 +145,20 @@
         "documentation": "",
         "data_format": "JSON",
         "comment": "XML, CSV"
+    },
+    {
+        "id": "9",
+        "name": "Open Patent Services (OPS)",
+        "link": "https:\/\/www.epo.org\/searching-for-patents\/data\/web-services\/ops.html#tab-1",
+        "image_url": "",
+        "description": "",
+        "category": "",
+        "entity": "",
+        "licence": "",
+        "interface": "",
+        "interface_type": "",
+        "documentation": "",
+        "data_format": "",
+        "comment": ""
     }
 ]
