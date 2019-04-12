@@ -175,5 +175,20 @@
         "documentation": "https:\/\/developer.github.com\/v3\/",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "11",
+        "name": "TIB AV-Portal",
+        "link": "https:\/\/av.tib.eu\/",
+        "image_url": "https:\/\/av.tib.eu\/static\/images\/TIB_Logo_AV-Portal-ver-153DAE63C5581AEEDFD8C0361A5DCB4F.png",
+        "description": "\"The TIB AV-Portal provides access to high grade scientific films from the fields of engineering, architecture, chemistry, computer science, mathematics and physics.\"\r\nhttps:\/\/av.tib.eu\/",
+        "category": "Repository",
+        "entity": "Work",
+        "licence": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.de",
+        "interface": "https:\/\/av.tib.eu\/opendata",
+        "interface_type": "Other",
+        "documentation": "https:\/\/av.tib.eu\/opendata",
+        "data_format": "XML",
+        "comment": ""
     }
 ]
