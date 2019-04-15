@@ -156,9 +156,8 @@
         "entity": "",
         "licence": "",
         "interface": "",
-        "interface_type": "",
+        "interface_type": "REST API",
         "documentation": "",
-        "data_format": "",
         "comment": ""
     },
     {
