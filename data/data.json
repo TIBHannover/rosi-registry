@@ -192,7 +192,7 @@
     },
     {
         "id": "12",
-        "name": "COCI, the OpenCitations Index of Crossref open DOI-to-DOI references",
+        "name": "COCI",
         "link": "http:\/\/opencitations.net\/index\/search",
         "image_url": "",
         "description": "COCI is an RDF dataset of DOI to DOI citations from Crossref references. It does not include citation references that are not open, nor Crossref references lacking DOIs.",
