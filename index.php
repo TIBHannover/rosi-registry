@@ -10,7 +10,7 @@
 <div class="container">
   <p>
     This registry describes data sources for scientometric information.
-    It is edited by the ROSI project. <a href="about.php">Read more</a>
+    It is maintained by the ROSI project. <a href="about.php">Read more</a>
   </p>
   <div class="alert alert-warning">
     This site is under construction. You are invited to help filling the registry!
