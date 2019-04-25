@@ -204,5 +204,20 @@
         "documentation": "http:\/\/opencitations.net\/index\/coci\/api\/v1",
         "data_format": "JSON",
         "comment": "A SPARQL endpoint is available, too: http:\/\/opencitations.net\/index\/sparql"
+    },
+    {
+        "id": "13",
+        "name": "Dimensions Metrics API",
+        "link": "https:\/\/www.dimensions.ai\/",
+        "image_url": "https:\/\/38h6q83kpel22aipe0iux4i1-wpengine.netdna-ssl.com\/wp-content\/themes\/dimensions\/public\/images\/logo.svg",
+        "description": "Dimensions is a data platform for discovery and analyzation of research, containing connections between grants, publications, clinical trials, patents and policy documents. The Metrics API can be queried using PubMed ID, DOI or Dimensions ID. ",
+        "category": "Data aggregator",
+        "entity": "",
+        "licence": "Usage requires registration and attribution, see https:\/\/www.dimensions.ai\/metricssignup\/ for more information.",
+        "interface": "",
+        "interface_type": "",
+        "documentation": "",
+        "data_format": "",
+        "comment": ""
     }
 ]
