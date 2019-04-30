@@ -218,5 +218,20 @@
         "interface_type": "",
         "documentation": "https:\/\/doi.org\/10.6084\/m9.figshare.5783694",
         "comment": ""
+    },
+    {
+        "id": "14",
+        "name": "Unpaywall",
+        "link": "https:\/\/unpaywall.org\/",
+        "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d0\/Unpaywall_logo.png",
+        "description": "Unpaywall finds open access copies of scholarly literature indexed in Crossref and returns open access full-text links as well as helpful metadata. It harvests Open Access content from over 50,000 publishers and repositories and is developed and maintained by the team of Impactstory.",
+        "category": "Data aggregator",
+        "entity": "Project",
+        "licence": "",
+        "interface": "https:\/\/api.unpaywall.org\/",
+        "interface_type": "REST API",
+        "documentation": "https:\/\/unpaywall.org\/products\/api",
+        "data_format": "JSON",
+        "comment": "While the API allows to retrieve a limited amount of records, Unpaywall also offers database snapshots for large-scale analysis (https:\/\/unpaywall.org\/products\/snapshot)."
     }
 ]
