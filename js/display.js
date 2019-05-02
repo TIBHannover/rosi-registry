@@ -19,6 +19,10 @@ $.getJSON('./config.json', function(config){
     // add image_url to the DOM
     $('#img').prepend('<img src="'+source[sourceId]['image_url']+'" width="200px"/>');
 
+	// add links to CORE and BASE to read_more
+	var encodedName = encodeURI(source[sourceId]['name']);
+	$('#read_more').prepend('Continue reading about this source in <a href="https://core.ac.uk/search?q='+encodedName+'">CORE</a> and <a href="https://www.base-search.net/Search/Results?lookfor='+encodedName+'">BASE</a>.');
+
     // create a view only form with alpaca
     $('#form').alpaca({
       "schemaSource": "./schemas/source.json",
