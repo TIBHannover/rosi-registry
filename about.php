@@ -8,6 +8,10 @@ uses datatables https://www.datatables.net/
   require_once("includes/header_datatables.php");
 ?>
 <div class="container">
+  <div class="alert alert-warning">
+    This site is under construction. You are invited to help filling the registry!
+    Contact us to get write access: rosi.project(at)tib.eu.
+  </div>
   <h3>About this Registry</h3>
   <div class="section">
     <p>
