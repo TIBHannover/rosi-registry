@@ -156,6 +156,7 @@
         "interface": "",
         "interface_type": "REST API",
         "documentation": "",
+        "data_format": "",
         "comment": ""
     },
     {
@@ -215,6 +216,7 @@
         "interface": "",
         "interface_type": "",
         "documentation": "https:\/\/doi.org\/10.6084\/m9.figshare.5783694",
+        "data_format": "",
         "comment": ""
     },
     {
