@@ -263,5 +263,20 @@
         "documentation": "http:\/\/developers.zenodo.org\/#introduction",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "17",
+        "name": "dblp Computer Science Bibliography",
+        "link": "https:\/\/dblp.uni-trier.de\/",
+        "image_url": "https:\/\/dblp.uni-trier.de\/img\/logo.320x120.png",
+        "description": "\"The dblp computer science bibliography is the on-line reference for bibliographic information on major computer science publications. It has evolved from an early small experimental web server to a popular open-data service for the computer science community. Our mission at dblp is to support computer science researchers in their daily efforts by providing free access to high-quality bibliographic meta-data and links to the electronic editions of publications.\"\r\n\r\nhttps:\/\/dblp.uni-trier.de\/faq\/What+is+dblp.html",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "Open Data Commons Attribution License (ODC-BY 1.0)",
+        "interface": "https:\/\/dblp.uni-trier.de\/faq\/13501473",
+        "interface_type": "API",
+        "documentation": "https:\/\/dblp.uni-trier.de\/faq\/",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
