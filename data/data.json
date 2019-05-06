@@ -323,5 +323,20 @@
         "documentation": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/tools\/developers\/",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "21",
+        "name": "Microsoft Academic Knowledge Graph",
+        "link": "http:\/\/ma-graph.org\/",
+        "image_url": "",
+        "description": "\"We present a large RDF data set with over eight billion triples with information about scientific publications and related entities, such as authors, institutions, journals, and fields of study. The data set is based on the Microsoft Academic Graph and licensed under the Open Data Attributions license.\"\r\n\r\nhttp:\/\/ma-graph.org\/",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "http:\/\/ma-graph.org\/sparql",
+        "interface_type": "SPARQL Endpoint",
+        "documentation": "http:\/\/ma-graph.org\/sparql-endpoint\/",
+        "data_format": "Other",
+        "comment": ""
     }
 ]
