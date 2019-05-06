@@ -368,5 +368,20 @@
         "documentation": "http:\/\/wikicite.org\/access.html",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "24",
+        "name": "Protocols.io",
+        "link": "https:\/\/www.protocols.io\/",
+        "image_url": "https:\/\/cdn.protocols.io\/production\/images\/0j5r1h\/logo-in-header.png",
+        "description": "\"protocols.io is the #1 open access repository for science methods\" https:\/\/www.protocols.io\/",
+        "category": "Collaborative platform",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/apidoc.protocols.io\/",
+        "interface_type": "API",
+        "documentation": "https:\/\/www.protocols.io\/developers",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
