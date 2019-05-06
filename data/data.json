@@ -308,5 +308,20 @@
         "documentation": "https:\/\/europepmc.org\/developers",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "20",
+        "name": "PubMed",
+        "link": "https:\/\/www.ncbi.nlm.nih.gov\/pubmed",
+        "image_url": "https:\/\/www.nlm.nih.gov\/about\/logos_nlm_photos\/pubmed_logo.png",
+        "description": "\"PubMed comprises over 29 million citations for biomedical literature from MEDLINE, life science journals, and online books. PubMed citations and abstracts include the fields of biomedicine and health, covering portions of the life sciences, behavioral sciences, chemical sciences, and bioengineering. [...] PubMed is a free resource that is developed and maintained by the National Center for Biotechnology Information (NCBI), at the U.S. National Library of Medicine (NLM), located at the National Institutes of Health (NIH).\"\r\n\r\nhttps:\/\/www.ncbi.nlm.nih.gov\/books\/NBK3827\/#pubmedhelp.PubMed_Quick_Start",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/tools\/developers\/#pmc-apis",
+        "interface_type": "API",
+        "documentation": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/tools\/developers\/",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
