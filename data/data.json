@@ -293,5 +293,20 @@
         "documentation": "https:\/\/bitbucket.org\/bibsonomy\/bibsonomy\/wiki\/browse\/documentation",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "19",
+        "name": "Europe PMC",
+        "link": "https:\/\/europepmc.org\/About",
+        "image_url": "https:\/\/europepmc.org\/images\/outreach\/Europe%20PMC%20Basic%20Logo%20RGB.png",
+        "description": "\"Europe PMC is a repository, providing access to worldwide life sciences articles, books, patents and clinical guidelines. Europe PMC provides links to relevant records in databases such as Uniprot, European Nucleotide Archive (ENA), Protein Data Bank Europe (PDBE) and BioStudies.\"\r\n\r\nhttps:\/\/europepmc.org\/About",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/europepmc.org\/RestfulWebService",
+        "interface_type": "REST API",
+        "documentation": "https:\/\/europepmc.org\/developers",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
