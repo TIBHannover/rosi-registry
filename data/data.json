@@ -383,5 +383,20 @@
         "documentation": "https:\/\/www.protocols.io\/developers",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "25",
+        "name": "Stack Exchange",
+        "link": "https:\/\/stackexchange.com\/about",
+        "image_url": "",
+        "description": "\"Launched in 2010, the Stack Exchange network comprises 173 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers.\" https:\/\/stackexchange.com\/about",
+        "category": "Collaborative platform",
+        "entity": "Person",
+        "licence": "CC BY-SA 3.0",
+        "interface": "https:\/\/api.stackexchange.com\/docs",
+        "interface_type": "API",
+        "documentation": "",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
