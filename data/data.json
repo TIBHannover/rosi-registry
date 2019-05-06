@@ -248,5 +248,20 @@
         "documentation": "https:\/\/core.ac.uk\/documentation\/api\/",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "16",
+        "name": "Zenodo",
+        "link": "https:\/\/zenodo.org\/",
+        "image_url": "http:\/\/about.zenodo.org\/static\/img\/logos\/zenodo-gradient-200.png",
+        "description": "\"Zenodo is a research data repository for the preservation and making available of research, educational and informational content.\" http:\/\/about.zenodo.org\/terms\/",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/zenodo.org\/api\/",
+        "interface_type": "API",
+        "documentation": "http:\/\/developers.zenodo.org\/#introduction",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
