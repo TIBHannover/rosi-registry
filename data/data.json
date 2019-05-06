@@ -233,5 +233,20 @@
         "documentation": "https:\/\/unpaywall.org\/products\/api",
         "data_format": "JSON",
         "comment": "While the API allows to retrieve a limited amount of records, Unpaywall also offers database snapshots for large-scale analysis (https:\/\/unpaywall.org\/products\/snapshot)."
+    },
+    {
+        "id": "15",
+        "name": "CORE",
+        "link": "https:\/\/core.ac.uk\/",
+        "image_url": "",
+        "description": "\"The world\u2019s largest collection of open access research papers.\"",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/core.ac.uk\/services\/#api",
+        "interface_type": "API",
+        "documentation": "https:\/\/core.ac.uk\/documentation\/api\/",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
