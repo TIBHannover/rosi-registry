@@ -278,5 +278,20 @@
         "documentation": "https:\/\/dblp.uni-trier.de\/faq\/",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "18",
+        "name": "BibSonomy",
+        "link": "https:\/\/www.bibsonomy.org\/",
+        "image_url": "",
+        "description": "\"The blue social bookmark and publication sharing system.\"",
+        "category": "Collaborative platform",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/bitbucket.org\/bibsonomy\/bibsonomy\/wiki\/documentation\/api\/REST%20API",
+        "interface_type": "REST API",
+        "documentation": "https:\/\/bitbucket.org\/bibsonomy\/bibsonomy\/wiki\/browse\/documentation",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
