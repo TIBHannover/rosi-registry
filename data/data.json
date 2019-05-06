@@ -353,5 +353,20 @@
         "documentation": "http:\/\/sherpa.ac.uk\/romeo\/SHERPA%20RoMEO%20API%20V-2-9%202013-11-25.pdf",
         "data_format": "XML",
         "comment": ""
+    },
+    {
+        "id": "23",
+        "name": "WikiCite",
+        "link": "http:\/\/wikicite.org\/",
+        "image_url": "http:\/\/wikicite.org\/assets\/wikicite_logo.svg",
+        "description": "\"WikiCite is a Wikimedia initiative to develop a database of open citations and linked bibliographic data to serve free knowledge.\"\r\nhttp:\/\/wikicite.org\/",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "Creative Commons CC0 License",
+        "interface": "https:\/\/query.wikidata.org\/",
+        "interface_type": "SPARQL Endpoint",
+        "documentation": "http:\/\/wikicite.org\/access.html",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
