@@ -126,7 +126,7 @@
         "interface_type": "API",
         "documentation": "https:\/\/de.wikipedia.org\/wiki\/Wikipedia:Technik\/Datenbank\/API",
         "data_format": "JSON",
-        "comment": "data format: JSON and XML - how can we diplay this info here?"
+        "comment": "data format: JSON and XML"
     },
     {
         "id": "8",
