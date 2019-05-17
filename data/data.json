@@ -397,5 +397,20 @@
         "documentation": "",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "26",
+        "name": "Altmetric Details Page API",
+        "link": "https:\/\/api.altmetric.com\/",
+        "image_url": "https:\/\/api.altmetric.com\/images\/homepage_logo.png",
+        "description": "The Altmetric Details Page API allows querying Altmetric metrics and full-text mentions of publications.",
+        "category": "Data aggregator",
+        "entity": "",
+        "licence": "non-open, custom license",
+        "interface": "https:\/\/api.altmetric.com\/v1\/",
+        "interface_type": "API",
+        "documentation": "",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
