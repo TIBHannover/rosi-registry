@@ -427,5 +427,20 @@
         "documentation": "",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "28",
+        "name": "Paperbuzz",
+        "link": "https:\/\/paperbuzz.org",
+        "image_url": "https:\/\/paperbuzz.org\/static\/img\/paperbuzz-logo.png",
+        "description": "Paperbuzz collects and aggregates information about events around DOIs. It's based on Paperbuzz.",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "unknown",
+        "interface": "https:\/\/api.paperbuzz.org\/v0",
+        "interface_type": "REST API",
+        "documentation": "https:\/\/paperbuzz.org\/api",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
