@@ -412,5 +412,20 @@
         "documentation": "",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "27",
+        "name": "Paperbuzz",
+        "link": "https:\/\/paperbuzz.org\/api",
+        "image_url": "https:\/\/paperbuzz.org\/static\/img\/paperbuzz-logo.png",
+        "description": "Paperbuzz is trying to collect DOI related events in papers, blogs etc.",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "Unknown",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/",
+        "interface_type": "REST API",
+        "documentation": "",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
