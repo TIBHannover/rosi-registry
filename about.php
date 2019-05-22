@@ -29,7 +29,7 @@ uses datatables https://www.datatables.net/
       Libary of Science and Technology</a> (TIB).
     </p>
     <p>
-      More information about the projcet ROSI:
+      More information about the project ROSI:
        <ul>
          <li><a href="https://www.tib.eu/en/research-development/project-overview/project-summary/rosi/">Project description at TIB</a></li>
          <li><a href="https://www.wihoforschung.de/de/rosi-2070.php">Project description as part of the funding framework "quantitative research on the science sector" (in German)</a></li>
@@ -51,6 +51,13 @@ uses datatables https://www.datatables.net/
       <p>
         If you miss data sources or would like to give feedback on the descriptions of the existing ones,
         please send us an email to rosi.project(at)tib.eu.
+      </p>
+    </div>
+
+  <h3>Code</h3>
+    <div class="section">
+      <p>
+        This registry is based on a javascript web application. <a href="https://github.com/TIBHannover/rosi-registry">Find the code at GitHub</a>
       </p>
     </div>
 
