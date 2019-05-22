@@ -12,7 +12,7 @@ includes/header.php
       <!-- Navigation -->
         <a href="index.php">Home</a>&nbsp;|&nbsp;
         <a href="tech.php">Technical Overview</a>&nbsp;|&nbsp;
-        <a href="graph.php">Graph</a>&nbsp;|&nbsp;
+        <a href="graph.php">Dataflow</a>&nbsp;|&nbsp;
         <a href="about.php">About</a>
     </div>
   </div>
