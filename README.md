@@ -1,6 +1,8 @@
-# ROSI Sources
+# ROSI Registry
 
 display and manage metadata of open scientometric data sources
+
+https://labs.tib.eu/rosi/
 
 ## Features
 
