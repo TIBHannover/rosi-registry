@@ -453,7 +453,7 @@
         "interface": "",
         "interface_type": "",
         "documentation": "https:\/\/cobaltmetrics.com\/docs\/api\/",
-        "data_format": "",
+        "data_format": "JSON",
         "comment": ""
     }
 ]
