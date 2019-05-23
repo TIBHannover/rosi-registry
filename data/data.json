@@ -463,12 +463,12 @@
         "image_url": "",
         "description": "\"Plum Analytics uses research metrics to help answer the questions and tell the stories about research.\"\r\n\r\nhttps:\/\/plumanalytics.com\/",
         "category": "Data aggregator",
-        "entity": "",
+        "entity": "Work",
         "licence": "",
-        "interface": "",
-        "interface_type": "",
-        "documentation": "",
-        "data_format": "",
+        "interface": "https:\/\/api.plu.mx\/",
+        "interface_type": "API",
+        "documentation": "https:\/\/github.com\/PlumAnalytics\/plum-api",
+        "data_format": "JSON",
         "comment": ""
     }
 ]
