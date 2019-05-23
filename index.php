@@ -9,12 +9,12 @@
 ?>
 <div class="container">
   <div class="alert alert-warning">
-    This site is under construction. You are invited to help filling the registry!
+    This is a work in progress. You are invited to help filling the registry!
     Contact us to get write access: rosi.project(at)tib.eu.
   </div>
   <p>
     This registry describes data sources for scientometric information.
-    It is maintained by the ROSI project. <a href="about.php">Read more</a>
+    It is maintained by the ROSI project. <a href="about.php">Read more</a>.
   </p>
   <p>
     <a href="form.php">Add new data source</a>
