@@ -4,10 +4,6 @@ Display Dataflow Image made with draw.io
 -->
 <?php require_once("includes/header_datatables.php");?>
 <div class="container">
-  <div class="alert alert-warning">
-    This site is under construction. You are invited to help filling the registry!
-    Contact us to get write access: rosi.project(at)tib.eu.
-  </div>
   <h3>Dataflow between scientometric data sources</h3>
   <div class="section">
     <p>
