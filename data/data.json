@@ -455,5 +455,20 @@
         "documentation": "https:\/\/cobaltmetrics.com\/docs\/api\/",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "30",
+        "name": "Plum Analytics",
+        "link": "https:\/\/plumanalytics.com\/",
+        "image_url": "",
+        "description": "\"Plum Analytics uses research metrics to help answer the questions and tell the stories about research.\"\r\n\r\nhttps:\/\/plumanalytics.com\/",
+        "category": "Data aggregator",
+        "entity": "",
+        "licence": "",
+        "interface": "",
+        "interface_type": "",
+        "documentation": "",
+        "data_format": "",
+        "comment": ""
     }
 ]
