@@ -21,8 +21,7 @@ uses datatables https://www.datatables.net/
       implementation for Scientometric Information"</a> (ROSI) funded by the
       <a href="https://www.bmbf.de/">Federal Ministry of Education and Research</a> (BMBF).
       The project is located at the <a href="https://www.tib.eu/en/research-development/open-science/">Open
-      Science Lab</a> of the <a href="http://tib.eu/">German National
-      Libary of Science and Technology</a> (TIB).
+      Science Lab</a> of the <a href="http://tib.eu/">Leibniz Information Centre for Science and Technology</a> (TIB).
     </p>
     <p>
       More information about the project ROSI:
@@ -38,7 +37,7 @@ uses datatables https://www.datatables.net/
       <ul>
         <li>Lambert Heller (<a href="https://tib.eu/lambo">VIVO Profile</a>) - project management</li>
         <li>Christian Hauschke (<a href="https://vivo.tib.eu/fis/display/n0000-0003-2499-7741">VIVO Profile</a>) - project management</li>
-        <li>Grischa Fraumann (<a href="https://vivo.tib.eu/fis/display/n0000-0003-0099-6509">VIVO Profile</a>) - scientific research</li>
+        <li>Grischa Fraumann (<a href="https://vivo.tib.eu/fis/display/n0000-0003-0099-6509">VIVO Profile</a>) - Research Assistant</li>
         <li>Svantje Lilienthal (<a href="https://vivo.tib.eu/fis/display/n0000-0003-1537-2862">VIVO Profile</a>) - technical implementation</li>
       </ul>
   </div>
@@ -58,6 +57,15 @@ uses datatables https://www.datatables.net/
       </p>
     </div>
 
+<h3>Literature</h3>
+<div class="section">
+    <ul>
+      <li>Sugimoto, C. R., & Larivière, V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press. 
+      </li>IFLA (2017). IFLA Library Reference Model (LRM). 
+      <li>
+      </ul>
+  </div>
+        
   <h3>Glossary</h3>
   <div class="section">
     <ul>
