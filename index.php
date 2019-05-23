@@ -9,7 +9,7 @@
 ?>
 <div class="container">
   <div class="alert alert-warning">
-    This site is under construction. You are invited to help filling the registry!
+    This is a work in progress. You are invited to help filling the registry!
     Contact us to get write access: rosi.project(at)tib.eu.
   </div>
   <p>
