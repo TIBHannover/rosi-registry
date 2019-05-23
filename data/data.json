@@ -66,19 +66,17 @@
     {
         "id": "4",
         "name": "NOA Scientific Image Search",
-        "link": "http:\/\/noa.wp.hs-hannover.de\/api_documentation.php",
-        "description": "\"Harvesting, analysis and efficient reuse of scientific images using Wikimedia infrastructures\"",
-        "data_ingest": null,
-        "licence": null,
+        "link": "http:\/\/noa.wp.hs-hannover.de\/",
         "image_url": "https:\/\/labs.tib.eu\/info\/fileadmin\/_processed_\/e\/6\/csm_noa_7bbdd3c592.jpg",
+        "description": "\"Harvesting, analysis and efficient reuse of scientific images using Wikimedia infrastructures\"",
+        "category": "",
         "entity": "Work",
-        "academic_discipline": null,
-        "interface": null,
-        "interface_type": null,
-        "data_format": null,
-        "category": null,
-        "documentation": null,
-        "comment": null
+        "licence": "",
+        "interface": "https:\/\/noa.wp.hs-hannover.de\/api.php?query=",
+        "interface_type": "API",
+        "documentation": "http:\/\/noa.wp.hs-hannover.de\/api-documentation.php",
+        "data_format": "JSON",
+        "comment": ""
     },
     {
         "id": "5",
