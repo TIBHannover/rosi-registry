@@ -14,7 +14,7 @@
   </div>
   <p>
     This registry describes data sources for scientometric information.
-    It is maintained by the ROSI project. <a href="about.php">Read more</a>
+    It is maintained by the ROSI project. <a href="about.php">Read more</a>.
   </p>
   <p>
     <a href="form.php">Add new data source</a>
