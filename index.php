@@ -8,14 +8,14 @@
   require_once("includes/header_datatables.php");
 ?>
 <div class="container">
-  <div class="alert alert-warning">
-    This is a work in progress. You are invited to help filling the registry!
-    Contact us to get write access: rosi.project(at)tib.eu.
-  </div>
   <p>
     This registry describes data sources for scientometric information.
     It is maintained by the ROSI project. <a href="about.php">Read more</a>.
   </p>
+  <div class="alert alert-warning">
+    This is a work in progress. You are invited to help filling the registry!
+    Contact us to get write access: rosi.project(at)tib.eu.
+  </div>
   <p>
     <a href="form.php">Add new data source</a>
   </p>
