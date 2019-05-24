@@ -35,10 +35,10 @@ uses datatables https://www.datatables.net/
   <h3>The Team</h3>
     <div class="section">
       <ul>
-        <li>Lambert Heller (<a href="https://tib.eu/lambo">VIVO Profile</a>) - project management</li>
-        <li>Christian Hauschke (<a href="https://vivo.tib.eu/fis/display/n0000-0003-2499-7741">VIVO Profile</a>) - project management</li>
-        <li>Grischa Fraumann (<a href="https://vivo.tib.eu/fis/display/n0000-0003-0099-6509">VIVO Profile</a>) - research</li>
-        <li>Svantje Lilienthal (<a href="https://vivo.tib.eu/fis/display/n0000-0003-1537-2862">VIVO Profile</a>) - technical implementation</li>
+        <li>Lambert Heller (<a href="https://tib.eu/lambo">VIVO Profile</a>) - Project Manager</li>
+        <li>Christian Hauschke (<a href="https://vivo.tib.eu/fis/display/n0000-0003-2499-7741">VIVO Profile</a>) - Project Manager</li>
+        <li>Grischa Fraumann (<a href="https://vivo.tib.eu/fis/display/n0000-0003-0099-6509">VIVO Profile</a>) - Research Assistant</li>
+        <li>Svantje Lilienthal (<a href="https://vivo.tib.eu/fis/display/n0000-0003-1537-2862">VIVO Profile</a>) - Software Developer</li>
       </ul>
   </div>
 
