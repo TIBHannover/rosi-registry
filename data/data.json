@@ -500,5 +500,20 @@
         "documentation": "https:\/\/docs.figshare.com\/",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "33",
+        "name": "Semantic Scholar",
+        "link": "https:\/\/www.semanticscholar.org\/",
+        "image_url": "",
+        "description": "\"Semantic Scholar is a free, nonprofit, academic search engine from [Allen Institute for Artificial Intelligence].\" https:\/\/www.semanticscholar.org\/",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/api.semanticscholar.org\/",
+        "interface_type": "REST API",
+        "documentation": "",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
