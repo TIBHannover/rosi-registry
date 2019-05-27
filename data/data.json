@@ -470,5 +470,20 @@
         "documentation": "https:\/\/github.com\/PlumAnalytics\/plum-api",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "31",
+        "name": "figshare",
+        "link": "https:\/\/figshare.com\/",
+        "image_url": "",
+        "description": "\"figshare is a repository where users can make all of their research outputs available in a citable, shareable and discoverable manner\" https:\/\/figshare.com\/about",
+        "category": "Repository",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/api.figshare.com\/v2",
+        "interface_type": "REST API",
+        "documentation": "https:\/\/docs.figshare.com\/",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
