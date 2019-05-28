@@ -401,7 +401,7 @@
         "name": "Altmetric Details Page API",
         "link": "https:\/\/api.altmetric.com\/",
         "image_url": "https:\/\/api.altmetric.com\/images\/homepage_logo.png",
-        "description": "The Altmetric Details Page API allows querying Altmetric metrics and full-text mentions of publications.",
+        "description": "\"The open Altmetric Details Page API allows rate-limited querying of Altmetric metrics for research outputs.\"",
         "category": "Data aggregator",
         "entity": "",
         "licence": "non-open, custom license",
