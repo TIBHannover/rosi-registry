@@ -234,7 +234,7 @@
         "id": "15",
         "name": "CORE",
         "link": "https:\/\/core.ac.uk\/",
-        "image_url": "",
+        "image_url": "http:\/\/kmi.open.ac.uk\/images\/projects\/core.png",
         "description": "\"The world\u2019s largest collection of open access research papers.\"",
         "category": "Data aggregator",
         "entity": "Work",
