@@ -515,5 +515,20 @@
         "documentation": "",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "34",
+        "name": "SciELO (Scientific Electronic Library Online) Analytics",
+        "link": "https:\/\/analytics.scielo.org\/",
+        "image_url": "https:\/\/analytics.scielo.org\/static\/images\/logo_analytics.png",
+        "description": "\"SciELO Network provides Open Access (OA) to journals\u2019 contents. Journals are organized in national and thematic collections. Each collection is managed by a nationally recognized research organization. Selection of journals to be indexed in and discontinued of a collection is of entire responsibility of each collection management organization, usually with the support of a scientific advisory committee.\" https:\/\/www.scielo.org\/en\/about-scielo\/open-access-statement",
+        "category": "Repository",
+        "entity": "Work",
+        "licence": "CC-BY",
+        "interface": "",
+        "interface_type": "Other",
+        "documentation": "http:\/\/docs.scielo.org\/en\/latest\/",
+        "data_format": "Other",
+        "comment": ""
     }
 ]
