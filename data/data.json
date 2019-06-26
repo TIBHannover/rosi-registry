@@ -402,13 +402,13 @@
         "image_url": "https:\/\/api.altmetric.com\/images\/homepage_logo.png",
         "description": "\"The open Altmetric Details Page API allows rate-limited querying of Altmetric metrics for research outputs.\"",
         "category": "Data aggregator",
-        "entity": "Work",
+        "entity": "",
         "licence": "non-open, custom license",
         "interface": "https:\/\/api.altmetric.com\/v1\/",
         "interface_type": "API",
-        "documentation": "https:\/\/api.altmetric.com\/",
+        "documentation": "",
         "data_format": "JSON",
-        "comment": ""
+        "comment": "Rate-limited queries to 1 call per second. \r\nhttps:\/\/api.altmetric.com\/"
     },
     {
         "id": "27",
