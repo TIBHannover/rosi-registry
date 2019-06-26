@@ -399,7 +399,7 @@
         "id": "26",
         "name": "Altmetric Details Page API",
         "link": "https:\/\/api.altmetric.com\/",
-        "image_url": "https:\/\/api.altmetric.com\/images\/homepage_logo.png",
+        "image_url": "https:\/\/api.altmetric.com\/images\/api_header_logo.png",
         "description": "\"The open Altmetric Details Page API allows rate-limited querying of Altmetric metrics for research outputs.\"",
         "category": "Data aggregator",
         "entity": "",
