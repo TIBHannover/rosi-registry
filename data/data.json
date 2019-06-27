@@ -529,5 +529,20 @@
         "documentation": "http:\/\/docs.scielo.org\/en\/latest\/",
         "data_format": "Other",
         "comment": ""
+    },
+    {
+        "id": "35",
+        "name": "The Lens Scholarly API",
+        "link": "https:\/\/www.lens.org",
+        "image_url": "https:\/\/static.lens.org\/lens\/6.2.1\/img\/logo-landing@2x.png",
+        "description": "The Lens Scholarly API provides information about works including Open Access status, license information, and scientific and patent citations.",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "https:\/\/about.lens.org\/policies\/#termsuse",
+        "interface": "https:\/\/api.lens.org\/swagger-ui.html",
+        "interface_type": "REST API",
+        "documentation": "https:\/\/docs.api.lens.org\/",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
