@@ -23,9 +23,9 @@
   <table id="table_id" class="display">
     <thead>
         <tr>
-            <th>#</th>
-            <th>Name</th>
+			<th>Name</th>
             <th>Description</th>
+            <th></th>
             <th>Link</th>
         </tr>
     </thead>

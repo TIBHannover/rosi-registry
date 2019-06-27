@@ -15,24 +15,14 @@ $.getJSON('./config.json', function(config){
         fixedHeader: true,
         data : data,
         columns: [
-         { data: 'id' },
          { data: 'name' },
          { data: 'description' },
+         { data: 'image_url' },
          { data: 'link' }
        ],
        columnDefs: [
          {
-             targets: 0, // display id as a link to the display page
-             render: function ( data, type, row, meta ) {
-                 if(type === 'display'){
-                     data = '<a href="display.php?sourceId=' + data + '">' + data + '</a>';
-                 }
-
-                 return data;
-             }
-         },
-         {
-             targets: 1, // display name as a link to the display page
+             targets: 0, // display name as a link to the detail page
              render: function ( data, type, row, meta ) {
                  if(type === 'display'){
                      data = '<a href="display.php?sourceId=' + row.id + '">' + data + '</a>';
@@ -42,6 +32,16 @@ $.getJSON('./config.json', function(config){
              }
          },
         {
+             targets: 2, // display logo
+             render: function ( data, type, row, meta ) {
+                 if(type === 'display'){
+                     data = '<img class="thumbnail" src="' + data + '"></img>';
+                 }
+
+                 return data;
+             }
+         },
+         {
             targets: 3, // display link as a link
             render: function ( data, type, row, meta ) {
                 if(type === 'display'){
@@ -50,7 +50,7 @@ $.getJSON('./config.json', function(config){
 
                 return data;
             }
-        }
+        },
       ]
      });
    });
