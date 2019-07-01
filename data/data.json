@@ -544,5 +544,20 @@
         "documentation": "https:\/\/docs.api.lens.org\/",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "36",
+        "name": "SciELO Citation Index",
+        "link": "https:\/\/clarivate.libguides.com\/webofscienceplatform\/scielo",
+        "image_url": "https:\/\/www.scielo.org\/static\/images\/logo-scielo-portal.svg",
+        "description": "\"SciELO Citation Index is created in partnership with SciELO, the Scientific Electronic Library Online, and consists of Open Access journal content from Latin America, the Caribbean, Spain, Portugal, and South Africa.\" https:\/\/clarivate.libguides.com\/webofscienceplatform\/scielo",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "",
+        "interface_type": "Other",
+        "documentation": "",
+        "data_format": "Other",
+        "comment": ""
     }
 ]
