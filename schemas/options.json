@@ -35,7 +35,8 @@
          "placeholder": "Enter the type of the interface - Typical interface types are API, REST API, SPARQL Endpoint"
      },
      "documentation": {
-         "placeholder": "Enter the link to the documentation"
+         "type": "url",
+	 "placeholder": "Enter the link to the documentation"
      },
      "comment": {
          "type": "textarea",
