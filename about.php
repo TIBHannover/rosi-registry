@@ -56,6 +56,27 @@ uses datatables https://www.datatables.net/
         This registry is based on a javascript web application. <a href="https://github.com/TIBHannover/rosi-registry">Find the code at GitHub</a>.
       </p>
     </div>
+
+<h3>Metadata Schema</h3>
+  <div class="section">
+    <p>
+      The data sources in this registry can be described by the following metadata fields (* marks mandatory fields). See also the corresponding <a href="https://github.com/TIBHannover/rosi-registry/blob/master/schemas/source.json">schema file</a>.
+    </p>
+    <ul>
+        <li>Name* - the name of the data source</li>
+        <li>Link* - the link to the main page of the data source</li>
+        <li>Link to Logo - a (persistent) link to an image</li>
+        <li>Description - a description of the data source itself (if its a quote please enter the source as well)</li>
+        <li>Category - category that describes the data source (Collaborative platform; Online social network; Repository; Data aggregator; Other)</li>
+        <li>Entity - entity that can be described by this data source (Work; Person; Organisation; Event; Project)</li>
+        <li>License - the license of the data </li>
+        <li>Interface - link to API or other interface</li>
+        <li>Type of Interface - the type of interface (REST API; HTTP API; HTTPS API; SPARQL Endpoint; other)</li>
+        <li>Documentation - link to the documentation of the interface</li>
+        <li>Data Format - lthe response data format (None; JSON; XML; Other)</li>
+        <li>Comment - textarea for any form of comment</li>
+    </ul>
+  </div>
  
   <h3>Glossary</h3>
   <div class="section">
@@ -88,6 +109,7 @@ uses datatables https://www.datatables.net/
       </li>
    </ul>
   </div> <!-- section -->
+
 <h3>Literature</h3>
 <div class="section">
     <ul>
