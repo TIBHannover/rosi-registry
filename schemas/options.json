@@ -36,7 +36,7 @@
      },
      "documentation": {
          "type": "url",
-	 "placeholder": "Enter the link to the documentation"
+	        "placeholder": "Enter the link to the documentation"
      },
      "comment": {
          "type": "textarea",

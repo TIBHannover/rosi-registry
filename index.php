@@ -5,7 +5,8 @@
 *
 * uses datatables https://www.datatables.net/
 */
-  require_once("includes/header_datatables.php");
+  $lib = 'datatables';
+  require_once("includes/header.php");
 ?>
 <div class="container">
   <p>
@@ -23,7 +24,7 @@
   <table id="table_id" class="display">
     <thead>
         <tr>
-			<th>Name</th>
+			      <th>Name</th>
             <th>Description</th>
             <th></th>
             <th>Link</th>

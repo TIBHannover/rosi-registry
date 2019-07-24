@@ -23,8 +23,8 @@ if(isset($_POST['submit'])) {
 if($valid) {
    header('Location: form.php'.$param); die();
 }
-
-require_once('includes/header_alpaca.php');
+$lib = 'alpaca';
+require_once('includes/header.php');
 ?>
 
 <div class='container'>

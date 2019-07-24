@@ -5,7 +5,7 @@ Display overview of all existing entries
 uses datatables https://www.datatables.net/
 -->
 <?php
-  require_once("includes/header_datatables.php");
+  require_once("includes/header.php");
 ?>
 <div class="container">
   <h3>About this Registry</h3>
@@ -77,7 +77,7 @@ uses datatables https://www.datatables.net/
         <li>Comment - textarea for any form of comment</li>
     </ul>
   </div>
- 
+
   <h3>Glossary</h3>
   <div class="section">
     <ul>
@@ -113,9 +113,9 @@ uses datatables https://www.datatables.net/
 <h3>Literature</h3>
 <div class="section">
     <ul>
-      <li>Sugimoto, C. R., & Larivière, V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press. 
+      <li>Sugimoto, C. R., & Larivière, V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press.
       </li>
-      <li>IFLA (2017). IFLA Library Reference Model (LRM). 
+      <li>IFLA (2017). IFLA Library Reference Model (LRM).
       </li>
       </ul>
   </div>

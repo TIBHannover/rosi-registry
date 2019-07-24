@@ -2,7 +2,7 @@
 graph.php
 Display Dataflow Image made with draw.io
 -->
-<?php require_once("includes/header_datatables.php");?>
+<?php require_once("includes/header.php");?>
 <div class="container">
   <h3>Dataflow between scientometric data sources</h3>
   <div class="section">

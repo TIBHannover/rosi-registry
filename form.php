@@ -16,7 +16,8 @@ if(!($_SESSION['login'] === true)){
   header('Location: login.php'.$param); //redirect to login page
 }
 
-require_once("includes/header_alpaca.php");
+$lib = 'alpaca';
+require_once("includes/header.php");
 ?>
 
 <!-- sceleton for the form -->

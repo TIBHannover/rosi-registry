@@ -4,7 +4,8 @@
 * Display existing entry
 * uses alpaca http://alpacajs.org
 */
-  require_once("includes/header_alpaca.php");
+  $lib = 'alpaca';
+  require_once("includes/header.php");
 ?>
 <div class="container">
 

@@ -32,10 +32,10 @@ $.getJSON('./config.json', function(config){
              }
          },
         {
-             targets: 2, // display logo
+             targets: 2, // display logo of the data source
              render: function ( data, type, row, meta ) {
                  if(type === 'display'){
-                     data = '<img class="thumbnail" src="' + data + '"></img>';
+                     data = '<img class="source-logo" src="' + data + '"></img>';
                  }
 
                  return data;

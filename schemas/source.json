@@ -91,6 +91,11 @@
       "name": "comment",
       "type": "string",
       "title": "Comment"
+    },
+    "last_update": {
+      "name": "last_update",
+      "type": "string",
+      "title": "Last update"
     }
   }
 }
