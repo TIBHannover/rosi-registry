@@ -28,7 +28,7 @@ uses datatables https://www.datatables.net/
        <ul>
          <li><a href="https://www.tib.eu/en/research-development/project-overview/project-summary/rosi/">Project description at TIB</a></li>
          <li><a href="https://www.wihoforschung.de/de/rosi-2070.php">Project description as part of the funding framework "quantitative research on the science sector" (in German)</a></li>
-         <li><a href="https://doi.org/10.3897/rio.4.e31656">Project proposal in the RIO Journal</a></li>
+         <li>Hauschke, Christian; Cartellieri; Simone & Heller, Lambert (2018). Reference implementation for open scientometric indicators (ROSI). Research Ideas and Outcomes 4: e31656.<a href="https://doi.org/10.3897/rio.4.e31656">https://doi.org/10.3897/rio.4.e31656</a></li>
       </ul>
     </p>
   </div>
