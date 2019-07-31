@@ -13,8 +13,9 @@ https://labs.tib.eu/rosi/
 ## Installation and usage
 
 1. clone this repo
-2. edit config.json
-3. change schemas for your needs
+2. run npm install
+3. edit config.json
+4. change schemas for your needs
 
 ## Built With
 
