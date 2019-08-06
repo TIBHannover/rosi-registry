@@ -13,6 +13,8 @@ includes/header.php
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link type="text/css" rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+    <script type="text/javascript" src="node_modules/markdown/lib/markdown.js"></script>
+
     <!-- handlebars -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
 

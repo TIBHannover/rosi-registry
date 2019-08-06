@@ -408,7 +408,8 @@
         "interface_type": "API",
         "documentation": "",
         "data_format": "JSON",
-        "comment": "Rate-limited queries to 1 call per second. \r\nhttps:\/\/api.altmetric.com\/"
+        "comment": "Rate-limited queries to 1 call per second. \r\nhttps:\/\/api.altmetric.com\/",
+        "last_update": "2019-06-27"
     },
     {
         "id": "27",

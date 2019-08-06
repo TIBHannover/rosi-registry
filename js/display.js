@@ -25,7 +25,7 @@ $.getJSON('./config.json', function(config){
 
     // create a view only form with alpaca
     $('#form').alpaca({
-      "schemaSource": "./schemas/source.json",
+      "schemaSource": "./schemas/schema.json",
       "optionsSource": "./schemas/options.json",
       "data" : source[sourceId],
       "view" : "bootstrap-display-horizontal"
