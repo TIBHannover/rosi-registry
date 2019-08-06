@@ -20,7 +20,7 @@ $lib = 'alpaca';
 require_once("includes/header.php");
 ?>
 
-<!-- sceleton for the form -->
+<!-- skeleton for the form -->
 <form action="db/set-data.php" method="post">
     <div class="container">
         <div id="form"></div> <!-- alpace will fill in the form in this div -->
