@@ -1,6 +1,6 @@
 <?php
 /**
-* @file db/set-data.php
+* @file dao/set-data.php
 */
 
 // read config
