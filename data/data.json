@@ -435,7 +435,7 @@
         "category": "Data aggregator",
         "entity": "Work",
         "licence": "unknown",
-        "interface": "https:\/\/api.paperbuzz.org\/v0",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi\/",
         "interface_type": "REST API",
         "documentation": "https:\/\/paperbuzz.org\/api",
         "data_format": "JSON",
