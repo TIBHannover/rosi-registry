@@ -50,16 +50,28 @@ The data sources in this registry can be described by the following metadata fie
 
 ### Glossary
 
+* API - Application Programming Interface
+* Category - Used to distinguish data sources based on their characteristics.
+* Collaborative platform - A web service for users to create, comment and change data together.
+* Data aggregator - A web service that collects and integrates data from more than one data source and makes the outcome available to external parties.
+* Data format - The data format describes the technical format that can be harvested through the interface of a data source.
 * Entity - An entity is an abstract class of conceptual objects (IFLA 2017).
 An entity is the object that can be described by indicators derived from a data source.
 Our entity types: Event, Organisation, Person, Project and Work.
-* Indicator - An indicator gives a narrow view on a specific aspect. Examples: Number of open access publications; Mentions in Wikipedia; etc.
 * Event - An event can be a conference, a workshop, a meeting, etc.
+* Indicator - An indicator gives a narrow view on a specific aspect. Examples: Number of open access publications; Mentions in Wikipedia; etc.
+* Interface - An interface is the point of access to harvest data from a data source.
+* JSON - JavaScript Object Notation
+* Online social network - A web service with the main objective to establish social interactions among its users.
 * Organisation - An organisation refers to universities, research centres, departments, research groups, etc.
 * Person - Mostly a researcher, but can also be anybody else
 * Project - A project refers to research projects, third-party funded projects, etc.
+* Repository - 	A web service that stores data, such as publications and research data, and makes it available to external parties.
+* REST API - REpresentational State Transfer Application Programming Interface
 * Scientometric - Umbrella term for quantitative studies of science (Sugimoto & Larivière 2018)
+* SPARQL Endpoint - SPARQL Protocol And RDF Query Language
 * Work - Work refers to research output of all kinds, e.g. articles, books, preprints, protocols, software, research data, etc.
+* XML - Extensible Markup Language
 
 ### Literature
 * Sugimoto, C. R., & Larivière, V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press.

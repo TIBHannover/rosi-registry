@@ -1,13 +1,15 @@
 <?php
 /**
-* @file db/set-data.php
+* @file dao/set-data.php
 */
 
 // read config
 $config = json_decode(file_get_contents('../config.json'), true);
 
-// read existing dataset from local
-$data = json_decode(file_get_contents('../data/data.json'), true);
+// read existing dataset from local json file
+$json = json_decode(file_get_contents('../data/data.json'), true);
+// handle empty json file
+$data = (isset($json)) ? $json : [];
 
 // read data structure from source.json
 $data_structure = json_decode(file_get_contents("../schemas/schema.json"), true);
@@ -47,7 +49,7 @@ echo shell_exec('git config user.name "'.$config['git_user'].'"');
 // git commit and push
 echo shell_exec('git add ../data/data.json');
 echo shell_exec('git commit -m "'.$commit_message.'"');
-echo shell_exec('git push origin remote');
+echo shell_exec('git push origin master');
 
 // go back to homepage
 header("Location: ../index.php");
