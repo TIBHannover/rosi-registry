@@ -560,5 +560,20 @@
         "documentation": "",
         "data_format": "Other",
         "comment": ""
+    },
+    {
+        "id": "37",
+        "name": "Scopus",
+        "link": "https:\/\/www.scopus.com\/",
+        "image_url": "https:\/\/www.um.edu.mt\/__data\/assets\/image\/0003\/341985\/varieties\/banner.jpg",
+        "description": "Scopus is an abstract and citation database. \r\n(https:\/\/www.elsevier.com\/solutions\/scopus?dgcid=RN_AGCM_Sourced_300005030)",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "https:\/\/dev.elsevier.com\/index.html",
+        "interface_type": "API",
+        "documentation": "https:\/\/dev.elsevier.com\/api_docs.html",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
