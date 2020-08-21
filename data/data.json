@@ -495,7 +495,7 @@
         "category": "Data aggregator",
         "entity": "Work",
         "licence": "",
-        "interface": "https:\/\/developer.clarivate.com\/apis\/wos",
+        "interface": "https:\/\/clarivate.com\/webofsciencegroup\/solutions\/xml-and-apis\/",
         "interface_type": "API",
         "documentation": "https:\/\/clarivate.com\/products\/data-integration\/",
         "data_format": "JSON",
