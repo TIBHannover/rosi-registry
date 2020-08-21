@@ -480,7 +480,7 @@
         "category": "Repository",
         "entity": "Work",
         "licence": "",
-        "interface": "https:\/\/api.figshare.com\/v2",
+        "interface": "https:\/\/docs.figshare.com\/",
         "interface_type": "REST API",
         "documentation": "https:\/\/docs.figshare.com\/",
         "data_format": "JSON",
