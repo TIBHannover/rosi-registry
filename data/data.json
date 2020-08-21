@@ -101,7 +101,7 @@
         "link": "https:\/\/datacite.org\/",
         "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a4\/DataCite_logo.png\/600px-DataCite_logo.png",
         "description": "DataCite assigns persistent identifiers (digital object identifiers, DOIs) to research data. This provides the opportunity to locate and cite research data, among others.",
-        "category": "",
+        "category": "Data aggregator",
         "entity": "Work",
         "licence": "",
         "interface": "https:\/\/api.datacite.org",
