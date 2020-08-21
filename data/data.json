@@ -224,7 +224,7 @@
         "category": "Data aggregator",
         "entity": "Project",
         "licence": "",
-        "interface": "https:\/\/api.unpaywall.org\/",
+        "interface": "https:\/\/unpaywall.org\/products\/api",
         "interface_type": "REST API",
         "documentation": "https:\/\/unpaywall.org\/products\/api",
         "data_format": "JSON",
