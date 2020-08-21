@@ -254,8 +254,8 @@
         "category": "Data aggregator",
         "entity": "Work",
         "licence": "",
-        "interface": "https:\/\/zenodo.org\/api\/",
-        "interface_type": "API",
+        "interface": "https:\/\/developers.zenodo.org\/",
+        "interface_type": "REST API",
         "documentation": "http:\/\/developers.zenodo.org\/#introduction",
         "data_format": "JSON",
         "comment": ""
