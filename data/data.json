@@ -575,5 +575,20 @@
         "documentation": "https:\/\/dev.elsevier.com\/api_docs.html",
         "data_format": "JSON",
         "comment": ""
+    },
+    {
+        "id": "38",
+        "name": "Crossref",
+        "link": "https:\/\/www.crossref.org\/",
+        "image_url": "https:\/\/assets.crossref.org\/logo\/crossref-logo-200.svg",
+        "description": "\"Crossref interlinks millions of items from a variety of content types, including journals, books, conference proceedings, working papers, technical reports, and data sets.\" https:\/\/en.wikipedia.org\/wiki\/Crossref",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "",
+        "interface": "",
+        "interface_type": "REST API",
+        "documentation": "https:\/\/www.crossref.org\/education\/retrieve-metadata\/rest-api\/",
+        "data_format": "JSON",
+        "comment": ""
     }
 ]
