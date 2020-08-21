@@ -465,7 +465,7 @@
         "category": "Data aggregator",
         "entity": "Work",
         "licence": "",
-        "interface": "https:\/\/api.plu.mx\/",
+        "interface": "https:\/\/plu.mx\/developers",
         "interface_type": "API",
         "documentation": "https:\/\/github.com\/PlumAnalytics\/plum-api",
         "data_format": "JSON",
