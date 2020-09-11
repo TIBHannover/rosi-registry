@@ -1,0 +1,40 @@
+id	label	description	x	y	cluster	weight<Links>	weight<Total link strength>	weight
+26	Altmetric	<table><tr><td>Data source:</td><td>Altmetric Details Page API</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.3064	0.4698	4	5	5	5000
+5	BASE	<table><tr><td>Data source:</td><td>BASE</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	1.0093	-0.2184	4	5	5	4860
+18	BibSonomy	<table><tr><td>Data source:</td><td>BibSonomy</td></tr><tr><td>Category:</td><td>Collaborative platform</td></tr></table>	-0.5176	-0.5671	1	0	0	9926
+29	Cobaltmetrics	<table><tr><td>Data source:</td><td>Cobaltmetrics</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.2434	-0.1422	4	2	2	423
+12	COCI	<table><tr><td>Data source:</td><td>COCI</td></tr><tr><td>Category:</td><td>Other</td></tr></table>	0.5241	-0.1011	5	0	0	3131
+15	CORE	<table><tr><td>Data source:</td><td>CORE</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.7562	-0.5361	4	6	6	5755
+39	Crossref	<table><tr><td>Data source:</td><td>Crossref</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.5849	-0.0082	4	1	1	4246
+2	CED	<table><tr><td>Data source:</td><td>Crossref Event Data</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.5497	0.3741	4	5	5	10193
+6	DataCite	<table><tr><td>Data source:</td><td>DataCite</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.0564	1.1192	4	4	4	12965
+17	dblp	<table><tr><td>Data source:</td><td>dblp Computer Science Bibliography</td></tr><tr><td>Category:</td><td>Collaborative platform</td></tr></table>	0.4133	-0.5517	1	0	0	6342
+13	Dimensions	<table><tr><td>Data source:</td><td>Dimensions Metrics API</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.5241	-0.1011	4	3	3	5922
+0	DOAJ	<table><tr><td>Data source:</td><td>DOAJ</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.1426	0.1639	4	3	3	7929
+1	dissemin	<table><tr><td>Data source:</td><td>dissemin</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.9767	0.3353	4	2	2	12701
+19	Europe PMC	<table><tr><td>Data source:</td><td>Europe PMC</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.1216	-0.6362	4	6	6	15035
+31	figshare	<table><tr><td>Data source:</td><td>figshare</td></tr><tr><td>Category:</td><td>Repository</td></tr></table>	1.0188	0.1965	3	5	6	22222
+10	GitHub	<table><tr><td>Data source:</td><td>GitHub</td></tr><tr><td>Category:</td><td>Online social network</td></tr></table>	-0.2931	-0.2935	2	2	2	8126
+21	MAKG	<table><tr><td>Data source:</td><td>Microsoft Academic Graph</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.3356	0.0314	4	2	2	6090
+4	NOA	<table><tr><td>Data source:</td><td>NOA Scientific Image Search</td></tr><tr><td>Category:</td><td>Other</td></tr></table>	0.9977	0.5609	5	2	2	3203
+9	OPS	<table><tr><td>Data source:</td><td>Open Patent Services (OPS)</td></tr><tr><td>Category:</td><td>Other</td></tr></table>	-0.6157	-0.2734	5	3	3	17130
+3	OpenAIRE	<table><tr><td>Data source:</td><td>OpenAIRE</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.4926	0.9561	4	9	9	3377
+28	Paperbuzz	<table><tr><td>Data source:</td><td>Paperbuzz</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.5177	-0.5671	4	2	2	5076
+30	Plum Analytics	<table><tr><td>Data source:</td><td>Plum Analytics</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.0663	-1.0572	4	6	7	3788
+24	Protocols	<table><tr><td>Data source:</td><td>Protocols.io</td></tr><tr><td>Category:</td><td>Collaborative platform</td></tr></table>	0.1426	0.1639	1	0	0	6215
+8	Publons	<table><tr><td>Data source:</td><td>Publons</td></tr><tr><td>Category:</td><td>Other</td></tr></table>	0.77	0.7144	5	1	1	4781
+20	PubMed	<table><tr><td>Data source:</td><td>PubMed</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.4822	-0.9777	4	7	7	4246
+34	SciELO Analytics	<table><tr><td>Data source:</td><td>SciELO (Scientific Electronic Library Online</td></tr><tr><td>Category:</td><td>Repository</td></tr></table>	0.1426	0.1639	3	0	0	10212
+36	SciELO CI	<table><tr><td>Data source:</td><td>SciELO Citation Index</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.085	0.0164	4	1	1	4038
+38	Scopus	<table><tr><td>Data source:</td><td>Scopus</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.6952	0.1945	4	1	1	4246
+33	Semantic Scholar	<table><tr><td>Data source:</td><td>Semantic Scholar</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.0064	-0.26	4	2	2	7371
+22	Sherpa Romeo	<table><tr><td>Data source:</td><td>Sherpa / Romeo</td></tr><tr><td>Category:</td><td>Other</td></tr></table>	0.5241	-0.101	5	0	0	5732
+25	Stack Exchange	<table><tr><td>Data source:</td><td>Stack Exchange</td></tr><tr><td>Category:</td><td>Collaborative platform</td></tr></table>	-0.4273	0.9001	1	3	3	5093
+35	The Lens	<table><tr><td>Data source:</td><td>The Lens Scholarly API</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.9516	-0.0592	4	4	4	4528
+11	TIB AV-Portal	<table><tr><td>Data source:</td><td>TIB AV-Portal</td></tr><tr><td>Category:</td><td>Repository</td></tr></table>	-0.3356	0.0314	3	0	0	423
+14	Unpaywall	<table><tr><td>Data source:</td><td>Unpaywall</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.7906	0.6983	4	4	4	12492
+32	WoS	<table><tr><td>Data source:</td><td>Web of Science</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.4133	-0.5518	4	2	2	4979
+23	WikiCite	<table><tr><td>Data source:</td><td>WikiCite</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	-0.6315	0.424	4	1	1	12312
+27	Wikidata	<table><tr><td>Data source:</td><td>Wikidata</td></tr><tr><td>Category:</td><td>Other</td></tr></table>	-0.9133	-0.4872	5	3	4	6212
+7	Wikipedia	<table><tr><td>Data source:</td><td>Wikipedia</td></tr><tr><td>Category:</td><td>Collaborative platform</td></tr></table>	-0.2577	-0.6981	1	5	6	6068
+16	Zenodo	<table><tr><td>Data source:</td><td>Zenodo</td></tr><tr><td>Category:</td><td>Data aggregator</td></tr></table>	0.0964	0.6744	4	7	7	23358
