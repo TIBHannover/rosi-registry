@@ -10,7 +10,7 @@ uses markdown to display text https://github.com/evilstreak/markdown-js
   <div id="preview"></div>
 
   <!-- include image of dataflow -->
-  <?php require_once("includes/dataflow.html");?>
+  <img src="includes/dataflow.jpg" alt="Dataflow">
 
 </div> <!-- container -->
 
