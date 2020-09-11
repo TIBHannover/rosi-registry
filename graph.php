@@ -10,7 +10,7 @@ uses markdown to display text https://github.com/evilstreak/markdown-js
   <div id="preview"></div>
 
   <!-- include image of dataflow -->
-  <img src="includes/dataflow.jpg" alt="Dataflow">
+  <img src="includes/dataflow.png" alt="Dataflow">
 
 </div> <!-- container -->
 
