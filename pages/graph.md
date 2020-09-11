@@ -6,4 +6,5 @@ This graph displays connections between the data sources listed in this registry
 
 Last update: 11 September 2020
 
-![Dataflow](/includes/dataflow.png "Dataflow")
+<img src="/includes/dataflow.png" alt="Dataflow"
+	title="Dataflow" width="150" height="100" />
