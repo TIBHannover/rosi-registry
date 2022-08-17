@@ -17,9 +17,9 @@
     This is a work in progress. You are invited to help filling the registry!
     Contact us to get write access: rosi.project(at)tib.eu.
   </div>
-  <p>
+  <!-- <p>
     <a href="form.php">Add new data source</a>
-  </p>
+  </p> -->
 
   <table id="table_id" class="display">
     <thead>

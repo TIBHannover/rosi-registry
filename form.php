@@ -5,6 +5,10 @@
 * uses alpaca http://alpacajs.org
 */
 
+/* adding to registry has been disabled */
+header('Location: index.php');
+exit;
+
 // check of user is logged in
 session_start();
 $param = "";
