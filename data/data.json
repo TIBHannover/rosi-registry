@@ -333,7 +333,7 @@
         "interface_type": "SPARQL Endpoint",
         "documentation": "http:\/\/ma-graph.org\/sparql-endpoint\/",
         "data_format": "Other",
-        "comment": "discontinued from 31 December 2021"
+        "comment": "Discontinued from 31 December 2021"
     },
     {
         "id": "22",
