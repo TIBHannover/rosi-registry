@@ -4,7 +4,8 @@ about.php
 uses markdown to display text https://github.com/evilstreak/markdown-js
 -->
 <?php
-  require_once("includes/header.php");
+$lib = '';
+require_once("includes/header.php");
 ?>
 
 <div class="container">
@@ -12,9 +13,11 @@ uses markdown to display text https://github.com/evilstreak/markdown-js
 </div>
 
 <script>
- $.get("pages/about.md", function(data){
-   preview.innerHTML = markdown.toHTML(data);
- });
+    fetch('pages/about.md')
+        .then(response => response.text())
+        .then(data => {
+            preview.innerHTML = markdown.toHTML(data);
+        });
 </script>
 
 <?php

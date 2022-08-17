@@ -16,7 +16,7 @@ includes/header.php
     <script type="text/javascript" src="node_modules/markdown/lib/markdown.js"></script>
 
     <!-- handlebars -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+    <script type="text/javascript" src="node_modules/handlebars/dist/handlebars.js"></script>
 
     <?php // include scripts for alpaca or datatables
      switch($lib){
