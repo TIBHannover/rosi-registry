@@ -3,6 +3,10 @@
 * @file dao/set-data.php
 */
 
+/* adding to registry has been disabled */
+header('Location: ../index.php');
+exit;
+
 // read config
 $config = json_decode(file_get_contents('../config.json'), true);
 
