@@ -17,20 +17,16 @@
     This is a work in progress. You are invited to help filling the registry!
     Contact us to get write access: rosi.project(at)tib.eu.
   </div>
-  <p>
-    <a href="form.php">Add new data source</a>
-  </p>
 
   <table id="table_id" class="display">
     <thead>
         <tr>
-            <th>Id</th>
+            <th></th>
             <th>Name</th>
             <th>Interface</th>
             <th>Type of Interface</th>
             <th>Documentation</th>
             <th>Data Format</th>
-            <th>Licence</th>
         </tr>
     </thead>
     <tbody></tbody>
