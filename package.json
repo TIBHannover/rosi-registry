@@ -23,14 +23,14 @@
   "dependencies": {
     "alpaca": "^1.5.27",
     "bootstrap": "^3.3.2",
-    "datatables.net": "^1.10.19",
-    "datatables.net-fixedheader": "^3.1.5",
-    "datatables.net-fixedheader-jqui": "^3.1.5",
-    "datatables.net-jqui": "^1.10.19",
-    "datatables.net-responsive": "^2.2.3",
-    "datatables.net-responsive-jqui": "^2.2.3",
-    "handlebars": "^4.1.2",
-    "jquery": "^3.3.1",
+    "datatables.net": "^1.11.3",
+    "datatables.net-fixedheader": "^3.2.4",
+    "datatables.net-fixedheader-jqui": "^3.2.4",
+    "datatables.net-jqui": "^1.12.1",
+    "datatables.net-responsive": "^2.3.0",
+    "datatables.net-responsive-jqui": "^2.3.0",
+    "handlebars": "^4.7.7",
+    "jquery": "^3.5.0",
     "markdown": "^0.5.0"
   }
 }

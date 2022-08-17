@@ -17,17 +17,14 @@
     This is a work in progress. You are invited to help filling the registry!
     Contact us to get write access: rosi.project(at)tib.eu.
   </div>
-  <!-- <p>
-    <a href="form.php">Add new data source</a>
-  </p> -->
 
   <table id="table_id" class="display">
     <thead>
         <tr>
-			      <th>Name</th>
+            <th></th>
+			<th>Name</th>
             <th>Description</th>
             <th></th>
-            <th>Link</th>
         </tr>
     </thead>
     <tbody></tbody>
