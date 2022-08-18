@@ -1,0 +1,103 @@
+<h3 id="about-this-registry">About this Registry</h3>
+<p>The diversity of scientometric data sources is large – and new ones are constantly being published,
+    existing ones are changing, and others are being switched off. It is almost impossible to maintain
+    a complete overview. In response we are collecting and describing several data sources for
+    scientometric information in this registry.</p>
+<p>This registry is a product of the project <a href="http://tib.eu/rosi-project">&quot;Reference implementation for
+    Scientometric Information&quot; (ROSI)</a> funded by the <a href="https://www.bmbf.de/">Federal Ministry of
+    Education and Research</a> (BMBF).
+    The project is located at the <a href="https://www.tib.eu/en/research-development/open-science/">Open
+        Science Lab</a> of the <a href="http://tib.eu/">Leibniz Information Centre for Science and Technology</a> (TIB).
+</p>
+<p>More information about the project ROSI:</p>
+<ul>
+    <li><a href="https://www.tib.eu/en/research-development/project-overview/project-summary/rosi/">Project description
+        at TIB</a></li>
+    <li><a href="https://www.wihoforschung.de/de/rosi-2070.php">Project description as part of the funding framework
+        &quot;quantitative research on the science sector&quot; (in German)</a></li>
+    <li><a href="https://doi.org/10.3897/rio.4.e31656">Project proposal in the RIO Journal</a></li>
+</ul>
+<h3 id="the-team">The Team</h3>
+<ul>
+    <li>Lambert Heller (<a href="https://tib.eu/lambo">VIVO profile</a>) - Project Manager</li>
+    <li>Christian Hauschke (<a href="https://vivo.tib.eu/fis/display/n0000-0003-2499-7741">VIVO profile</a>) - Project
+        Manager
+    </li>
+    <li>Grischa Fraumann (<a href="https://vivo.tib.eu/fis/display/n0000-0003-0099-6509">VIVO profile</a>) - Research
+        Assistant
+    </li>
+    <li>Svantje Lilienthal (<a href="https://vivo.tib.eu/fis/display/n0000-0003-1537-2862">VIVO profile</a>) - Software
+        Developer
+    </li>
+</ul>
+<h3 id="contact">Contact</h3>
+<p>If you miss data sources or would like to give feedback on the descriptions of the existing ones,
+    please send us an email to rosi.project(at)tib.eu.</p>
+<h3 id="code">Code</h3>
+<p>This registry is based on a javascript web application. <a href="https://github.com/TIBHannover/rosi-registry">Find
+    the code at GitHub</a>.</p>
+<h3 id="metadata-schema">Metadata Schema</h3>
+<p>The data sources in this registry can be described by the following metadata fields (* marks mandatory fields). See
+    also the corresponding <a href="https://github.com/TIBHannover/rosi-registry/blob/master/schemas/source.json">schema
+        file</a>.</p>
+<ul>
+    <li>Name* - the name of the data source</li>
+    <li>Link* - the link to the main page of the data source</li>
+    <li>Link to Logo - a (persistent) link to an image</li>
+    <li>Description - a description of the data source itself (if its a quote please enter the source as well)</li>
+    <li>Category - category that describes the data source (Collaborative platform; Online social network; Repository;
+        Data aggregator; Other)
+    </li>
+    <li>Entity - entity that can be described by this data source (Work; Person; Organisation; Event; Project)</li>
+    <li>License - the license of the data</li>
+    <li>Interface - link to API or other interface</li>
+    <li>Type of Interface - the type of interface (REST API; HTTP API; HTTPS API; SPARQL Endpoint; other)</li>
+    <li>Documentation - link to the documentation of the interface</li>
+    <li>Data Format - lthe response data format (None; JSON; XML; Other)</li>
+    <li>Comment - textarea for any form of comment</li>
+</ul>
+<h3 id="glossary">Glossary</h3>
+<ul>
+    <li>API - Application Programming Interface</li>
+    <li>Category - Used to distinguish data sources based on their characteristics.</li>
+    <li>Collaborative platform - A web service for users to create, comment and change data together.</li>
+    <li>Data aggregator - A web service that collects and integrates data from more than one data source and makes the
+        outcome available to external parties.
+    </li>
+    <li>Data format - The data format describes the technical format that can be harvested through the interface of a
+        data source.
+    </li>
+    <li>Entity - An entity is an abstract class of conceptual objects (IFLA 2017).
+        An entity is the object that can be described by indicators derived from a data source.
+        Our entity types: Event, Organisation, Person, Project and Work.
+    </li>
+    <li>Event - An event can be a conference, a workshop, a meeting, etc.</li>
+    <li>Indicator - An indicator gives a narrow view on a specific aspect. Examples: Number of open access publications;
+        Mentions in Wikipedia; etc.
+    </li>
+    <li>Interface - An interface is the point of access to harvest data from a data source.</li>
+    <li>JSON - JavaScript Object Notation</li>
+    <li>Online social network - A web service with the main objective to establish social interactions among its
+        users.
+    </li>
+    <li>Organisation - An organisation refers to universities, research centres, departments, research groups, etc.</li>
+    <li>Person - Mostly a researcher, but can also be anybody else</li>
+    <li>Project - A project refers to research projects, third-party funded projects, etc.</li>
+    <li>Repository - A web service that stores data, such as publications and research data, and makes it available to
+        external parties.
+    </li>
+    <li>REST API - REpresentational State Transfer Application Programming Interface</li>
+    <li>Scientometric - Umbrella term for quantitative studies of science (Sugimoto &amp; Larivière 2018)</li>
+    <li>SPARQL Endpoint - SPARQL Protocol And RDF Query Language</li>
+    <li>Work - Work refers to research output of all kinds, e.g. articles, books, preprints, protocols, software,
+        research data, etc.
+    </li>
+    <li>XML - Extensible Markup Language</li>
+</ul>
+<h3 id="literature">Literature</h3>
+<ul>
+    <li>Sugimoto, C. R., &amp; Larivière, V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University
+        Press.
+    </li>
+    <li>IFLA (2017). IFLA Library Reference Model (LRM).</li>
+</ul>
