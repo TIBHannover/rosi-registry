@@ -1,0 +1,5 @@
+{
+  "remote": "./data/data.json",
+  "git_user": "username",
+  "git_email": "email"
+}
