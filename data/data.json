@@ -442,21 +442,6 @@
         "comment": ""
     },
     {
-        "id": "29",
-        "name": "Cobaltmetrics",
-        "link": "https:\/\/cobaltmetrics.com\/",
-        "image_url": "https:\/\/cobaltmetrics.com\/assets\/images\/logo.svg",
-        "description": "\"Cobaltmetrics crawls the web to index hyperlinks and persistent identifiers as first-class citations. We analyze a wide range of websites to reveal insightful links between documents.\"\r\n\r\nhttps:\/\/cobaltmetrics.com\/",
-        "category": "Data aggregator",
-        "entity": "Work",
-        "licence": "",
-        "interface": "",
-        "interface_type": "",
-        "documentation": "https:\/\/cobaltmetrics.com\/docs\/api\/",
-        "data_format": "JSON",
-        "comment": ""
-    },
-    {
         "id": "30",
         "name": "Plum Analytics",
         "link": "https:\/\/plumanalytics.com\/",
