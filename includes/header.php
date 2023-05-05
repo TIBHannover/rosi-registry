@@ -5,7 +5,9 @@ includes/header.php
 <html>
   <head>
     <title>Registry of Open Scientometric Data Sources</title>
-
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
     <!-- jquery -->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 
