@@ -711,4 +711,19 @@
         "data_format": "JSON",
         "comment": ""
     }
+        {
+        "id": "48",
+        "name": "Open Citations Meta",
+        "link": "https:\/\/opencitations.net\/meta\/",
+        "image_url": "https:\/\/opencitations.net\/static\/img\/logo.png",
+        "description": "The OpenCitations Meta database stores and delivers bibliographic metadata for all publications involved in the OpenCitations Indexes",
+        "category": "Data aggregator",
+        "entity": "Work",
+        "licence": "The data held in any of the OpenCitations datasets are made freely available under a Creative Commons public domain dedication (CC0) (https://opencitations.net/about)",
+        "interface": "https:\/\/opencitations.net\/meta\/sparql",
+        "interface_type": "SPARQL",
+        "documentation": "https:\/\/doc.aminer.org\/en\/latest\/index.html",
+        "data_format": "JSON",
+        "comment": "A JSON Rest API is also available"
+    }
 ]
