@@ -713,7 +713,7 @@
   {
     "id": "48",
     "name": "Open Citations Meta",
-    "link": "https:\/\/opencitations.net\/meta\/",
+    "link": "https:\/\/opencitations.net\/meta",
     "image_url": "https:\/\/opencitations.net\/static\/img\/logo.png",
     "description": "The OpenCitations Meta database stores and delivers bibliographic metadata for all publications involved in the OpenCitations Indexes",
     "category": "Data aggregator",
